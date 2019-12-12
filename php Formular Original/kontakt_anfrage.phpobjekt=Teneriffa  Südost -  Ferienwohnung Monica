@@ -1,0 +1,291 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Kontaktformular</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="Author" content="">
+<meta name="Publisher" content="">
+<meta name="Copyright" content="">
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<meta name="Page-topic" content="">
+<meta name="Audience" content="">
+<meta name="Content-language" content="">
+<meta name="Page-type" content="">
+<meta name="Robots" content="">
+<script type="text/javascript">
+<!-- 
+
+
+function chkFormular()
+{
+
+				if(document.magicmail_form.name.value == "")  { 
+
+				alert("Bitte geben Sie Ihren Namen an."); 
+
+				document.magicmail_form.name.focus(); 
+
+				return false; 
+
+				} 
+ 
+				var mm_email_check = document.magicmail_form.email.value.match(/^[a-z\d][\w\d_\.-]+@([a-z\d][a-z\d\-]+[a-z\d]\.)+\w{2,6}$/i); 
+
+				if(!mm_email_check && document.magicmail_form.email.value !="")  { 
+
+				alert("Bitte geben Sie eine gültige eMail-Adresse an."); 
+
+				document.magicmail_form.email.focus(); 
+
+				return false; 
+
+				} 
+ 
+				if(document.magicmail_form.vorname.value == "")  { 
+
+				alert("Bitte geben Sie Ihren Vornamen an."); 
+
+				document.magicmail_form.vorname.focus(); 
+
+				return false; 
+
+				} 
+ 
+				if(document.magicmail_form.telefon.value == "")  { 
+
+				alert("Bitte geben Sie Ihre Telefonnummer an."); 
+
+				document.magicmail_form.telefon.focus(); 
+
+				return false; 
+
+				} 
+ 
+				if(document.magicmail_form.email.value == "")  { 
+
+				alert("Bitte geben Sie eine E-Mailadresse an."); 
+
+				document.magicmail_form.email.focus(); 
+
+				return false; 
+
+				} 
+ 
+}
+// -->
+</script>
+<style type="text/css">
+<!--
+.text    { color: #5b5542; font-size: 12px; font-family: Arial, Helvetica, sans-serif }
+.header   { color: #5b5542; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: bold }
+.content-ueberschrift { font-size: 13px; font-family: Arial, Helvetica, sans-serif }
+.hinweis  { 
+	color: #000; 
+	font-size: 11px; 
+	font-family: Arial, Helvetica, Geneva, SunSans-Regular, sans-serif; 
+	font-weight: normal }
+.line    { border-top: 1px dotted #887e62 }
+.table   { border: solid 1px #887e62 }
+.footer-text  { color: #000; font-size: 11px; font-family: Arial, Helvetica, Geneva, SunSans-Regular, sans-serif; font-weight: normal }
+h1  { font-size: 13px; font-family: "Trebuchet MS", Geneva, Arial, Helvetica, SunSans-Regular, sans-serif; font-weight: bold }
+.feld1  { border-top: none; border-right: none; border-bottom: 1px solid #f30; border-left: none }
+.feld2       { color: #c23e36; font-size: 12px; font-family: Arial, Helvetica, sans-serif; background-color: #f5f4eb; border: solid 1px #333 }
+.sbutton       { color: #e6e3ca; font-size: 11px; font-weight: bold; background-color: #5b5542; border: solid 1px #000 }
+-->
+</style>
+</head>
+
+<body>
+<table class="table" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#887e62">
+<tr><td>
+  <table width="569" border="0" align="center" cellpadding="0" cellspacing="1" background="images/hintergrund_beige.jpg">
+			<tr align="left">
+      <td width="570">
+					<table width="710" border="0" cellspacing="0" cellpadding="6" align="center">
+						<tr>
+							<td class="header">
+											<div align="center">
+												<p>Buchungsanfrage</p></div>
+										</td>
+						</tr>
+					</table>
+				</td>
+    </tr>
+			<tr align="center"> 
+      <td width="570"><br>
+								<table width="695" border="0" cellspacing="0" cellpadding="0" align="center">
+						<tr>
+							<td class="text" align="center"><font size="2" face="Arial, Helvetica, sans-serif"><strong>Beachten Sie bitte folgendes:</strong><br>
+										Hierbei handelt es sich lediglich um eine Anfrage und keine verbindliche Zusage.<br>
+									Alle Anfragen gelten erst als verbindlich, wenn Sie von uns eine Best&auml;tigung erhalten haben.<br>
+								</font><font size="2" face="Arial, Helvetica, sans-serif"><br>
+									<img src="images/seestern_rot_24_26.gif" height="26" width="26" align="absmiddle"> = diese Angaben brauchen wir zur schnellstm&ouml;glichen Bearbeitung</font><br>
+										</td>
+						</tr>
+						<tr>
+							<td valign="top">
+								<div class="text" align="center">
+									<form action="kontakt_anfrage.php" method="post" enctype="application/x-www-form-urlencoded" name="magicmail_form" id="magicmail_form" onSubmit="return chkFormular()">
+										&nbsp;
+										<table class="text" width="749" border="0" cellspacing="1" cellpadding="3">
+										    <tr align="center" valign="middle" height="25">
+															<td colspan="2" height="25">
+																<hr class="line" size="1" width="100%">
+															</td>
+														</tr>
+											<tr valign="top">
+												<td align="right" valign="middle" width="205"><img src="images/seestern_rot_24_26.gif" alt="" height="26" width="26" align="absmiddle" border="0" hspace="3"><b>Anrede:</b></td>
+												<td><select name="anrede" class="feld2" size="1" id="anrede">
+														<option selected>Auswahl...</option>
+														<option></option>
+														<option value="Frau">Frau</option>
+																	<option value="Herr">Herr</option>
+																</select></td>
+											</tr>
+											<tr height="28">
+												<td align="right" valign="middle" width="205" height="28"><img src="images/seestern_rot_24_26.gif" alt="" height="26" width="26" align="absmiddle" border="0" hspace="3"><b>Vorname:</b></td>
+												<td height="28"><input name="vorname" class="feld2" type="text" id="vorname" size="46"> <input name="mm_case" type="hidden" id="mm_case" value="proof"> 
+                                                <input name="mm_form_vars" type="hidden" id="mm_form_vars" value="anrede,vorname,name,strasse,nr,plz,ort,email,telefon,telefax,objekt,objektalt,perso_erw,perso_kin,termin1ab,termin1bis,auto,autozeit,kontaktwunsch,message,referer"></td>
+											</tr>
+											<tr height="28">
+												<td align="right" valign="middle" width="205" height="28"><img src="images/seestern_rot_24_26.gif" alt="" height="26" width="26" align="absmiddle" border="0" hspace="3"><b>Name:</b></td>
+												<td height="28"><input name="name" class="feld2" type="text" id="name" size="46"></td>
+											</tr>
+											<tr height="28">
+												<td align="right" valign="middle" width="205" height="28"><img src="images/seestern_rot_24_26.gif" alt="" height="26" width="26" align="absmiddle" border="0" hspace="3"><b>Stra&szlig;e:</b></td>
+												<td height="28"><input name="strasse" class="feld2" type="text" id="strasse" size="29"><font color="#666666">&nbsp;&nbsp;&nbsp;</font><b>Nr.:&nbsp;</b><input name="nr" class="feld2" type="text" id="nr" size="5"></td>
+											</tr>
+											<tr height="28">
+												<td align="right" valign="middle" width="205" height="28"><img src="images/seestern_rot_24_26.gif" alt="" height="26" width="26" align="absmiddle" border="0" hspace="3"><b>PLZ:</b></td>
+												<td height="28"><input name="plz" class="feld2" type="text" id="plz" size="5" maxlength="5">
+                                            &nbsp;&nbsp;&nbsp;&nbsp;<b>Ort:&nbsp;</b><input name="ort" class="feld2" type="text" id="ort" size="27"></td>
+											</tr>
+											<tr>
+												<td align="right" valign="middle" width="205"><img src="images/seestern_rot_24_26.gif" alt="" height="26" width="26" align="absmiddle" border="0" hspace="3"><b>E-Mail:</b></td>
+												<td><input name="email" class="feld2" type="text" id="email" size="46"></td>
+											</tr>
+											<tr>
+												<td align="right" valign="middle" width="205"><img src="images/seestern_rot_24_26.gif" alt="" height="26" width="26" align="absmiddle" border="0" hspace="3"><b>Telefon</b><strong></strong><b>:</b></td>
+												<td><input name="telefon" class="feld2" type="text" id="telefon" size="46"></td>
+											</tr>
+											<tr>
+												<td align="right" valign="bottom" width="205"><img src="images/seestern_rot_24_26.gif" alt="" height="26" width="26" align="absmiddle" border="0" hspace="3"><b>Kontaktwunsch:</b></td>
+												<td valign="middle"><b>&nbsp;&nbsp;Telefon</b><input type="radio" name="kontaktwunsch" id="kontaktwunsch" value="Telefon"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-Mail</b><input type="radio" name="kontaktwunsch" id="kontaktwunsch" value="E-Mail"></td>
+											</tr>
+											<tr align="center" valign="middle" height="40">
+															<td colspan="2" height="40">
+																<hr class="line" size="1" width="100%">
+															</td>
+														</tr>
+											<tr>
+												<td align="right" valign="middle" width="205"><img src="images/seestern_rot_24_26.gif" alt="" height="26" width="26" align="absmiddle" border="0" hspace="3"><b>Name des Ferienhaus:</b></td>
+												<td><input name="objekt" class="feld2" type="text" id="objekt" value="Teneriffa  Südost -  Ferienwohnung Monica" size="46"></td>
+											</tr>
+											<tr>
+												<td align="right" valign="middle" width="205"><img src="images/seestern_rot_24_26.gif" alt="" height="26" width="26" align="absmiddle" border="0" hspace="3"><b>Urlaub vom:</b></td>
+												<td><input type="Text" class="feld2" name="termin1ab" id="datum1bis" size="10" value="" maxlength="10">&nbsp;&nbsp;&nbsp;&nbsp;<b>bis: </b>&nbsp;<input type="Text" class="feld2" name="termin1bis" size="10" value="" maxlength="10"></td>
+											</tr>
+											<tr>
+												<td align="right" valign="middle" width="205"><img src="images/seestern_rot_24_26.gif" alt="" height="26" width="26" align="absmiddle" border="0" hspace="3"><b>Personen:</b></td>
+												<td><input type="Text" class="feld2" name="perso_erw" id="datum1bis" size="3" value="0" maxlength="2">&nbsp;&nbsp;<b>Erwachsene </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="Text" class="feld2" name="perso_kin" size="3" value="0" maxlength="2">&nbsp;&nbsp;<b>Kinder</b></td>
+											</tr>
+											<tr align="center" height="40">
+															<td colspan="2" height="40">
+																<hr class="line" size="1" width="100%">
+															</td>
+														</tr>
+											<tr valign="top">
+												<td align="right" valign="middle" width="205"><b>Ihr Mietwagenwunsch:</b></td>
+												<td><select name="auto" class="feld2" size="1" id="autoalt">
+														<option>Suchen Sie hier Ihren Mietwagen aus</option>
+														<option>Fiat Grande Punto ab 170.- Euro f&uuml;r 7 Tage</option>
+														<option>Nissan Micra ab 150.- Euro f&uuml;r 7 Tage</option>
+														<option>Nissan Micra C+C ab 250.- Euro f&uuml;r 7 Tage</option>
+														<option>Citroen C3 ab 150.- f&uuml;r 7 Tage</option>
+														<option>Citroen Berlingo ab 195.- Euro f&uuml;r 7 Tage</option>
+														<option>Opel Astra ab 195.- Euro f&uuml;r 7 Tage</option>
+														<option>Nissan Primastar AB 420.- Euro für 7 Tage</option>
+													</select></td>
+											</tr>
+											<tr>
+												<td align="right" valign="middle" width="205"><b>Mietdauer:</b></td>
+												<td><input type="Text" class="feld2" name="autozeit" id="datum1bis" size="3" maxlength="2">&nbsp;&nbsp;<b>Tage</b>(Optional)</td>
+											</tr>
+											<tr valign="top">
+												<td align="right" valign="middle" width="205"><img src="images/form_blank.gif" width="120" height="2"></td>
+												<td><img src="images/form_blank.gif" width="120" height="2"></td>
+											</tr>
+											<tr align="center" valign="middle" height="30">
+															<td colspan="2" height="30">
+																<hr class="line" size="1" width="100%">
+															</td>
+														</tr>
+											<tr valign="top">
+												<td align="right" valign="middle" width="205"><b>Ihre Nachricht:</b></td>
+												<td><textarea class="feld2" name="message" cols="110" rows="6" wrap="PHYSICAL" id="message"></textarea></td>
+											</tr>
+											<tr valign="top">
+												<td width="205">&nbsp;</td>
+												<td>
+													<div align="right"></div>
+												</td>
+											</tr>
+											<tr align="center" valign="middle" height="40">
+															<td colspan="2" height="40">
+																<hr class="line" size="1" width="100%">
+															</td>
+														</tr>
+														<tr>
+												<td align="right" valign="middle" width="205">Wo haben Sie uns gefunden?</td>
+												<td><select name="referer" class="feld2" size="1" id="autoalt">
+																	<option selected>Auswahl...</option>
+																	<option></option>
+																	<option value="Google">Google</option>
+																	<option value="Yahoo">Yahoo</option>
+																</select></td>
+											</tr>
+														<tr align="center" height="40">
+															<td colspan="2" height="40">
+																<hr class="line" size="1" width="100%">
+															</td>
+														</tr>
+														<tr valign="top">
+												<td width="205"></td>
+												<td align="center"><input type="reset" class="sbutton" value="L&ouml;schen">&nbsp;&nbsp;<input type="submit" class="sbutton" name="Submit" value="Abschicken"></td>
+											</tr>
+											<tr valign="top">
+												<td colspan="2" align="center"></td>
+											</tr>
+										</table>
+									</form>
+								
+                    <font color="#000000" size="1" face="Arial, Helvetica, sans-serif"><strong>Preisangaben 
+                    f&uuml;r die angebotenen Ferienunterk&uuml;nfte verstehen 
+                    sich Netto zzgl. 5% Igic (Impuesto General Indirecto Canario).</strong></font></div>
+							</td>
+						</tr>
+					</table>
+							</td>
+    </tr>
+    <tr valign="middle"> 
+      <td width="570">
+					<table width="450" border="0" cellspacing="0" cellpadding="12" align="center">
+          <tr> 
+                <td class="footer-text"> <div align="center"><font color="#000000">Datenschutzerklärung 
+                    Die von Ihnen angegeben Daten werden zur Bearbeitung ihrer 
+                    Anfrage/Buchung, sowie zur Zusendung von weiteren Informationen 
+                    (z.B. Alternativ- oder Ergänzungsangebote) an unsere zentrale 
+                    Sammelstelle übermittelt und elektronisch gespeichert (§28 
+                    Abs. 1 Satz 1 Nr. 1 BDSG). </font></div>
+                  <div align="center"><font color="#000000"><br>
+                    &copy; 2005 www.go-teneriffa.de</font></div></td>
+          </tr>
+        </table>
+				</td>
+    </tr>
+  </table>
+  </td></tr>
+</table>
+</body>
+</html>

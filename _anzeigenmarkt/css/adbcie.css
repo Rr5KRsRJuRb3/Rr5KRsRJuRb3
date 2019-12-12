@@ -1,0 +1,192 @@
+A:hover 
+{
+text-decoration:bold; color:#0099FF;
+}
+A:link 
+{
+text-decoration:underline; color:#000080;
+}
+a:active 
+{
+color:#gfgfgf; 
+}
+
+/* Allgemeine Fonteinstellungen */
+div.normal { font-size:16px;  Font-Family: Arial, Helvetica, Sans-Serif;} 
+div.klein { font-size:13px; Font-Family: Arial, Helvetica, Sans-Serif; } 
+div.mittel { font-size:14px;  Font-Family: Arial, Helvetica, Sans-Serif;} 
+div.kleiner { font-size:12px;Font-Family: Arial, Helvetica, Sans-Serif; }
+div.header { font-size:14px;  Font-Family: Arial, Helvetica, Sans-Serif; color: #004040;}
+div.subheader { font-size:14px;  Font-Family: Arial, Helvetica, Sans-Serif; Font-Weight: bold;}
+div.notice { font-size:13px; Font-Family: Arial, Helvetica, Sans-Serif; color: #FF0000;} 
+div.error { font-size:14px; Font-Family: Arial, Helvetica, Sans-Serif; color: #FF0000; Font-Weight: bold;} 
+font.prevnext { font-size:14px; Font-Family: Arial, Helvetica, Sans-Serif; } 
+
+/* Fonteinstellungen der Anzeigenausgabe (ausgabe.php) */
+/* Fontgrösse und Farbe der Bezeichnungen */
+div.adbezeichnung 
+{
+font-size:14px;  
+Font-Family: Arial, Helvetica, Sans-Serif;
+color: #666697; 
+Font-Weight: bold;
+}
+/* Fontgrösse und Farbe der Anzeigenüberschrift */
+div.adueberschrift 
+{
+font-size:16px;  
+Font-Family: Arial, Helvetica, Sans-Serif;
+color: #000000; 
+Font-Weight: bold;
+}
+/* Fontgrösse und Farbe der Bereichsüberschriften */
+div.adtitel 
+{
+font-size:14px;  
+Font-Family: Arial, Helvetica, Sans-Serif;
+color: #004040; 
+Font-Weight: bold;
+} 
+/* Fontgrösse und Farbe der Anzeigentexte */
+div.adtext 
+{
+font-size:14px;  
+Font-Family: Arial, Helvetica, Sans-Serif;
+color: #000000; 
+Font-Weight: normal;
+}
+/* Fontgrösse und Farbe der klein geschriebenen Anzeigentexte */
+div.adtextklein 
+{
+font-size:13px;  
+Font-Family: Arial, Helvetica, Sans-Serif;
+color: #000000; 
+Font-Weight: normal;
+}
+/* TD Hintergrundfarbe Trenner der Daten bei der Anzeigenausgabe */
+TD.trenner
+{
+background-color : #666697;
+}
+/* Ende Anzeigenausgabe */
+BODY
+{
+background-color : #FFFFFF;
+Font-Family: Arial, Helvetica, Sans-Serif;
+Font-Variant: normal;
+Font-Weight: normal;
+Font-Style: normal;
+font-size:14px;
+}
+TABLE 
+{
+color : #000000;
+font-family : Arial, Helvetica, sans-serif;
+font-size : 14px;
+}
+TABLE.normaltablecolor 
+{
+background-color : #FFFFFF;
+color : #000000;
+font-family : Arial, Helvetica, sans-serif;
+font-size : 14px;
+}
+TABLE.headertablecolor 
+{
+background-color : #637E85;
+color : #000000;
+font-family : Arial, Helvetica, sans-serif;
+font-size : 14px;
+}
+/* Hintergrund bzw. Rahmenfarbe  der Tabellen */
+TABLE.outertablecolor 
+{
+background-color : #637E85;
+color : #000000;
+font-family : Arial, Helvetica, sans-serif;
+font-size : 14px;
+}
+TEXTAREA
+{
+background-color : #EEEEEE;
+Font-Family: Arial, Verdana, Helvetica;
+Font-Size: 9pt;
+Font-Variant: normal;
+Font-Weight: bold;
+Font-Style: normal;
+Text-Align: left;
+Text-Decoration: none;
+border: #000080 solid 1px;
+}
+BUTTON
+{
+Color: #000000;
+Font-Family: Arial, Verdana, Helvetica;
+Font-Size: 5pt;
+background-color : #EEEEEE;
+}
+/* Normale Inputfelder und Buttons */
+INPUT
+{
+background-color : #efefef;
+font-family : Arial, Helvetica, sans-serif;
+font-size : 10px;
+border: #000080 solid 1px;
+Color: #000000;
+Font-Weight: bold;
+}
+
+/* Button Löschbestätigung */
+INPUT.del
+{
+background-color : #FF0000;
+font-family : Arial, Helvetica, sans-serif;
+font-size : 10px;
+border: #000080 solid 1px;
+Color: #FFFFFF;
+Font-Weight: bold;
+}
+SELECT
+{
+background-color : #efefef;
+Color: #000000;
+Font-Family: Arial, Verdana, Helvetica;
+Font-Size: 8pt;
+border: #000080 solid 1px;
+}
+OPTION
+{
+Color: #0000FF;
+Font-Family: Arial, Verdana, Helvetica;
+Font-Size: 8pt;
+border: #000080 solid 1px;
+}
+TD
+{
+Font-Family: Arial, Verdana, Helvetica;
+font-size:14px;
+}
+TD.normal
+{
+background-color : #FFFFFF;
+Font-Family: Arial, Verdana, Helvetica;
+font-size:14px;
+}
+TD.headertd
+{
+background-color : #F7BC5B;
+Font-Family: Arial, Verdana, Helvetica;
+font-size:14px;
+}
+TD.subtd
+{
+background-color : #EFEFEF;
+Font-Family: Arial, Verdana, Helvetica;
+font-size:14px;
+}
+TR.subtr
+{
+background-color : #DFDFDF;
+Font-Family: Arial, Verdana, Helvetica;
+font-size:14px;
+}

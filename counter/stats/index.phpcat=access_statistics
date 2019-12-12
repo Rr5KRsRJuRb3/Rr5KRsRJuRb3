@@ -1,0 +1,1518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title>chCounter: Zugriffsstatistiken</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="../templates/stats/style.css" />
+ </head>
+ <body>
+<!-- the counter output. It's included invisible, but as it may print out a JavaScript, it's noted here. -->
+  <!--
+|  chCounter 3.0.3
+|  a counter and statistics script written in PHP
+|  (c) Christoph Bachner, 2005 - released under the GNU GPL
+|  [ http://www.christoph-bachner.net ] 
+-->
+
+<!-- end counter -->
+  <form action="index.php" method="get" style="margin: 0px;">
+   <div class="navigation_bar" style="margin-bottom: 50px; height: 45px; background-image:url(../images/bg_top.png); background-repeat:repeat-x;">
+   <!-- <a class="top_mark">&nbsp;</a> -->
+    <div id="top" class="stats_title" style="margin-bottom: 5px;">Besucherstatistiken für http://go-teneriffa.de.</div>
+
+    <a href="index.php" title="Hauptseite">Hauptseite</a>
+
+    |
+
+    <a href="index.php?cat=pages" title="Seiten">Seiten</a>
+
+    |
+
+    <a href="index.php?cat=referrers" title="Referrer">Referrer</a>
+
+    |
+
+    <a href="index.php?cat=visitors_details" title="Besucherdetails">Besucherdetails</a>
+
+    |
+
+    <b><a href="index.php?cat=access_statistics" title="Zugriffsstatistiken">Zugriffsstatistiken</a></b>
+
+
+    <span style="margin-left: 60px;">
+     Sprache:
+     <select name="lang">
+
+      <option value="de" selected="selected">Deutsch</option>
+
+      <option value="en" >English</option>
+
+      <option value="fr" >Français</option>
+
+      <option value="hu" >Magyar</option>
+
+     </select>
+
+     <input type="hidden" name="cat" value="access_statistics" />
+     
+     <input type="submit" value="OK" />
+    </span>
+   </div>   <div class="box_containing_2_centered_boxes">
+    <div class="access_stats_start">Die Zugriffsstatistiken laufen seit dem 17.06.2005.</div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="stats_title" style="margin-bottom: 10px;">Rekorde</div>
+    <div class="left_box_of_2_centered_boxes">
+     <table class="table_data_and_records" cellpadding="0" cellspacing="1">
+      <tr class="row3">
+       <td colspan="2" style="text-align: center;"><b>Besucher</b></td>
+      </tr>
+      <tr class="row1">
+       <td style="width: 150px;">am Tag (max):</td>
+       <td style="text-align:right"><b>419</b><br /><i>Dienstag, 18.04.2006</i></td>
+      </tr>
+      <tr class="row2">
+       <td>am Tag (min):</td>
+       <td style="text-align:right"><b>0</b><br /><i>Sonntag, 07.01.2007</i></td>
+      </tr>
+      <tr class="row1">
+       <td>in einer Kalenderwoche (max):</td>
+       <td style="text-align:right"><b>1739</b><br /><i>46. KW,<br />13.11.2006 - 19.11.2006</i></td>
+      </tr>
+      <tr class="row2">
+       <td>in einer Kalenderwoche (min):</td>
+       <td style="text-align:right"><b>165</b><br /><i>24. KW,<br />13.06.2005 - 19.06.2005</i></td>
+      </tr>
+      <tr class="row1">
+       <td>im Monat (max):</td>
+       <td style="text-align:right"><b>7316</b><br /><i>August 2006</i></td>
+      </tr>
+      <tr class="row2">
+       <td>im Monat (min):</td>
+       <td style="text-align:right"><b>1399</b><br /><i>Juni 2005</i></td>
+      </tr>
+      <tr class="row1">
+       <td>im Jahr (max):</td>
+       <td style="text-align:right"><b>73146</b><br /><i>2006</i></td>
+      </tr>
+      <tr class="row2">
+       <td>im Jahr (min):</td>
+       <td style="text-align:right"><b>2033</b><br /><i>2007</i></td>
+      </tr>
+     </table>
+    </div>
+    <div class="right_box_of_2_centered_boxes">
+     <table class="table_data_and_records" cellpadding="0" cellspacing="1">
+      <tr class="row3">
+       <td colspan="2" style="text-align: center;"><b>Seitenaufrufe</b></td>
+      </tr>
+      <tr class="row1">
+       <td style="width: 150px;">am Tag (max):</td>
+       <td style="text-align:right"><b>1634</b><br /><i>Donnerstag, 16.03.2006</i></td>
+      </tr>
+      <tr class="row2">
+       <td>am Tag (min):</td>
+       <td style="text-align:right"><b>2</b><br /><i>Sonntag, 07.01.2007</i></td>
+      </tr>
+      <tr class="row1">
+       <td>in einer Kalenderwoche (max):</td>
+       <td style="text-align:right"><b>5613</b><br /><i>11. KW,<br />13.03.2006 - 19.03.2006</i></td>
+      </tr>
+      <tr class="row2">
+       <td>in einer Kalenderwoche (min):</td>
+       <td style="text-align:right"><b>716</b><br /><i>24. KW,<br />13.06.2005 - 19.06.2005</i></td>
+      </tr>
+      <tr class="row1">
+       <td>im Monat (max):</td>
+       <td style="text-align:right"><b>22924</b><br /><i>August 2006</i></td>
+      </tr>
+      <tr class="row2">
+       <td>im Monat (min):</td>
+       <td style="text-align:right"><b>5021</b><br /><i>Juni 2005</i></td>
+      </tr>
+      <tr class="row1">
+       <td>im Jahr (max):</td>
+       <td style="text-align:right"><b>227698</b><br /><i>2006</i></td>
+      </tr>
+      <tr class="row2">
+       <td>im Jahr (min):</td>
+       <td style="text-align:right"><b>6090</b><br /><i>2007</i></td>
+      </tr>
+     </table>
+    </div>
+   </div>
+   <div class="stats_spacer"></div>
+   <div class="center" style="text-align: center;">
+    <div class="stats_title" style="margin-bottom: 10px;">Verteilung auf Tageszeit/Wochentage</div>
+    <select name="distr_type">
+
+     <option value="time_of_day" selected="selected"> Tageszeit</option>
+
+     <option value="weekdays" > Wochentage</option>
+
+    </select>
+    <select name="distr_of">
+
+     <option value="visitors" selected="selected"> Besucher</option>
+
+     <option value="page_views" > Seitenaufrufe</option>
+
+    </select>
+    <input type="submit" value="OK" /><br />
+    <br />
+    <table cellpadding="0" cellspacing="1" border="0" style="border-collapse: separate; border: 1px solid #000000">
+
+     <tr class="row3">
+      <td>Stunde</td>
+      <td style="width: 200px;"></td>
+      <td>Prozent</td>
+      <td>Besucher durchschnittl.</td>
+     </tr>
+
+
+     <tr class="row1" title="00-01 Uhr: 3,98 Besucher durchschnittlich (2,24%)">
+      <td>00-01 Uhr:</td>
+      <td style="width: 200px; padding: 0px;">
+      <div class="bar_access_stats_1" style="width: 33%;"></div>
+      </td>
+      <td>2,24%</td>
+      <td>3,98</td>
+     </tr>
+
+     <tr class="row2" title="01-02 Uhr: 2,33 Besucher durchschnittlich (1,31%)">
+      <td>01-02 Uhr:</td>
+      <td style="width: 200px; padding: 0px;">
+      <div class="bar_access_stats_1" style="width: 19%;"></div>
+      </td>
+      <td>1,31%</td>
+      <td>2,33</td>
+     </tr>
+
+     <tr class="row1" title="02-03 Uhr: 1,60 Besucher durchschnittlich (0,90%)">
+      <td>02-03 Uhr:</td>
+      <td style="width: 200px; padding: 0px;">
+      <div class="bar_access_stats_1" style="width: 13%;"></div>
+      </td>
+      <td>0,90%</td>
+      <td>1,60</td>
+     </tr>
+
+     <tr class="row2" title="03-04 Uhr: 0,86 Besucher durchschnittlich (0,48%)">
+      <td>03-04 Uhr:</td>
+      <td style="width: 200px; padding: 0px;">
+      <div class="bar_access_stats_1" style="width: 7%;"></div>
+      </td>
+      <td>0,48%</td>
+      <td>0,86</td>
+     </tr>
+
+     <tr class="row1" title="04-05 Uhr: 1,35 Besucher durchschnittlich (0,76%)">
+      <td>04-05 Uhr:</td>
+      <td style="width: 200px; padding: 0px;">
+      <div class="bar_access_stats_1" style="width: 11%;"></div>
+      </td>
+      <td>0,76%</td>
+      <td>1,35</td>
+     </tr>
+
+     <tr class="row2" title="05-06 Uhr: 1,19 Besucher durchschnittlich (0,67%)">
+      <td>05-06 Uhr:</td>
+      <td style="width: 200px; padding: 0px;">
+      <div class="bar_access_stats_1" style="width: 10%;"></div>
+      </td>
+      <td>0,67%</td>
+      <td>1,19</td>
+     </tr>
+
+     <tr class="row1" title="06-07 Uhr: 1,04 Besucher durchschnittlich (0,58%)">
+      <td>06-07 Uhr:</td>
+      <td style="width: 200px; padding: 0px;">
+      <div class="bar_access_stats_1" style="width: 9%;"></div>
+      </td>
+      <td>0,58%</td>
+      <td>1,04</td>
+     </tr>
+
+     <tr class="row2" title="07-08 Uhr: 2,46 Besucher durchschnittlich (1,39%)">
+      <td>07-08 Uhr:</td>
+      <td style="width: 200px; padding: 0px;">
+      <div class="bar_access_stats_1" style="width: 20%;"></div>
+      </td>
+      <td>1,39%</td>
+      <td>2,46</td>
+     </tr>
+
+     <tr class="row1" title="08-09 Uhr: 4,01 Besucher durchschnittlich (2,26%)">
+      <td>08-09 Uhr:</td>
+      <td style="width: 200px; padding: 0px;">
+      <div class="bar_access_stats_1" style="width: 33%;"></div>
+      </td>
+      <td>2,26%</td>
+      <td>4,01</td>
+     </tr>
+
+     <tr class="row2" title="09-10 Uhr: 6,43 Besucher durchschnittlich (3,62%)">
+      <td>09-10 Uhr:</td>
+      <td style="width: 200px; padding: 0px;">
+      <div class="bar_access_stats_1" style="width: 53%;"></div>
+      </td>
+      <td>3,62%</td>
+      <td>6,43</td>
+     </tr>
+
+     <tr class="row1" title="10-11 Uhr: 9,05 Besucher durchschnittlich (5,10%)">
+      <td>10-11 Uhr:</td>
+      <td style="width: 200px; padding: 0px;">
+      <div class="bar_access_stats_1" style="width: 75%;"></div>
+      </td>
+      <td>5,10%</td>
+      <td>9,05</td>
+     </tr>
+
+     <tr class="row2" title="11-12 Uhr: 10,86 Besucher durchschnittlich (6,12%)">
+      <td>11-12 Uhr:</td>
+      <td style="width: 200px; padding: 0px;">
+      <div class="bar_access_stats_1" style="width: 90%;"></div>
+      </td>
+      <td>6,12%</td>
+      <td>10,86</td>
+     </tr>
+
+     <tr class="row1" title="12-13 Uhr: 11,90 Besucher durchschnittlich (6,71%)">
+      <td>12-13 Uhr:</td>
+      <td style="width: 200px; padding: 0px;">
+      <div class="bar_access_stats_1" style="width: 98%;"></div>
+      </td>
+      <td>6,71%</td>
+      <td>11,90</td>
+     </tr>
+
+     <tr class="row2" title="13-14 Uhr: 12,12 Besucher durchschnittlich (6,83%)">
+      <td>13-14 Uhr:</td>
+      <td style="width: 200px; padding: 0px;">
+      <div class="bar_access_stats_2" style="width: 100%;"></div>
+      </td>
+      <td>6,83%</td>
+      <td>12,12</td>
+     </tr>
+
+     <tr class="row1" title="14-15 Uhr: 12,04 Besucher durchschnittlich (6,78%)">
+      <td>14-15 Uhr:</td>
+      <td style="width: 200px; padding: 0px;">
+      <div class="bar_access_stats_1" style="width: 99%;"></div>
+      </td>
+      <td>6,78%</td>
+      <td>12,04</td>
+     </tr>
+
+     <tr class="row2" title="15-16 Uhr: 11,82 Besucher durchschnittlich (6,66%)">
+      <td>15-16 Uhr:</td>
+      <td style="width: 200px; padding: 0px;">
+      <div class="bar_access_stats_1" style="width: 98%;"></div>
+      </td>
+      <td>6,66%</td>
+      <td>11,82</td>
+     </tr>
+
+     <tr class="row1" title="16-17 Uhr: 12,00 Besucher durchschnittlich (6,76%)">
+      <td>16-17 Uhr:</td>
+      <td style="width: 200px; padding: 0px;">
+      <div class="bar_access_stats_1" style="width: 99%;"></div>
+      </td>
+      <td>6,76%</td>
+      <td>12,00</td>
+     </tr>
+
+     <tr class="row2" title="17-18 Uhr: 11,96 Besucher durchschnittlich (6,74%)">
+      <td>17-18 Uhr:</td>
+      <td style="width: 200px; padding: 0px;">
+      <div class="bar_access_stats_1" style="width: 99%;"></div>
+      </td>
+      <td>6,74%</td>
+      <td>11,96</td>
+     </tr>
+
+     <tr class="row1" title="18-19 Uhr: 11,95 Besucher durchschnittlich (6,74%)">
+      <td>18-19 Uhr:</td>
+      <td style="width: 200px; padding: 0px;">
+      <div class="bar_access_stats_1" style="width: 99%;"></div>
+      </td>
+      <td>6,74%</td>
+      <td>11,95</td>
+     </tr>
+
+     <tr class="row2" title="19-20 Uhr: 10,98 Besucher durchschnittlich (6,19%)">
+      <td>19-20 Uhr:</td>
+      <td style="width: 200px; padding: 0px;">
+      <div class="bar_access_stats_1" style="width: 91%;"></div>
+      </td>
+      <td>6,19%</td>
+      <td>10,98</td>
+     </tr>
+
+     <tr class="row1" title="20-21 Uhr: 10,73 Besucher durchschnittlich (6,04%)">
+      <td>20-21 Uhr:</td>
+      <td style="width: 200px; padding: 0px;">
+      <div class="bar_access_stats_1" style="width: 88%;"></div>
+      </td>
+      <td>6,04%</td>
+      <td>10,73</td>
+     </tr>
+
+     <tr class="row2" title="21-22 Uhr: 10,48 Besucher durchschnittlich (5,90%)">
+      <td>21-22 Uhr:</td>
+      <td style="width: 200px; padding: 0px;">
+      <div class="bar_access_stats_1" style="width: 86%;"></div>
+      </td>
+      <td>5,90%</td>
+      <td>10,48</td>
+     </tr>
+
+     <tr class="row1" title="22-23 Uhr: 9,45 Besucher durchschnittlich (5,33%)">
+      <td>22-23 Uhr:</td>
+      <td style="width: 200px; padding: 0px;">
+      <div class="bar_access_stats_1" style="width: 78%;"></div>
+      </td>
+      <td>5,33%</td>
+      <td>9,45</td>
+     </tr>
+
+     <tr class="row2" title="23-24 Uhr: 6,86 Besucher durchschnittlich (3,87%)">
+      <td>23-24 Uhr:</td>
+      <td style="width: 200px; padding: 0px;">
+      <div class="bar_access_stats_1" style="width: 57%;"></div>
+      </td>
+      <td>3,87%</td>
+      <td>6,86</td>
+     </tr>
+
+
+
+
+    </table>
+    <div class="stats_spacer"></div>
+    <div class="stats_title" style="margin-bottom: 10px;">Tagesstatistik</div>
+    <select name="d_day">
+
+     <option value="01" > 1.</option>
+
+     <option value="02" > 2.</option>
+
+     <option value="03" > 3.</option>
+
+     <option value="04" > 4.</option>
+
+     <option value="05" > 5.</option>
+
+     <option value="06" > 6.</option>
+
+     <option value="07" selected="selected"> 7.</option>
+
+     <option value="08" > 8.</option>
+
+     <option value="09" > 9.</option>
+
+     <option value="10" > 10.</option>
+
+     <option value="11" > 11.</option>
+
+     <option value="12" > 12.</option>
+
+     <option value="13" > 13.</option>
+
+     <option value="14" > 14.</option>
+
+     <option value="15" > 15.</option>
+
+     <option value="16" > 16.</option>
+
+     <option value="17" > 17.</option>
+
+     <option value="18" > 18.</option>
+
+     <option value="19" > 19.</option>
+
+     <option value="20" > 20.</option>
+
+     <option value="21" > 21.</option>
+
+     <option value="22" > 22.</option>
+
+     <option value="23" > 23.</option>
+
+     <option value="24" > 24.</option>
+
+     <option value="25" > 25.</option>
+
+     <option value="26" > 26.</option>
+
+     <option value="27" > 27.</option>
+
+     <option value="28" > 28.</option>
+
+     <option value="29" > 29.</option>
+
+     <option value="30" > 30.</option>
+
+     <option value="31" > 31.</option>
+
+    </select>
+    <select name="d_month">
+
+     <option value="Jan" selected="selected"> Januar</option>
+
+     <option value="Feb" > Februar</option>
+
+     <option value="Mar" > März</option>
+
+     <option value="Apr" > April</option>
+
+     <option value="May" > Mai</option>
+
+     <option value="Jun" > Juni</option>
+
+     <option value="Jul" > Juli</option>
+
+     <option value="Aug" > August</option>
+
+     <option value="Sep" > September</option>
+
+     <option value="Oct" > Oktober</option>
+
+     <option value="Nov" > November</option>
+
+     <option value="Dec" > Dezember</option>
+
+    </select>
+    <select name="d_year">
+
+     <option value="2007" selected="selected"> 2007</option>
+
+     <option value="2006" > 2006</option>
+
+     <option value="2005" > 2005</option>
+
+    </select>
+    <select name="d_type">
+
+     <option value="visitors" selected="selected"> Besucher</option>
+
+     <option value="page_views" > Seitenaufrufe</option>
+
+    </select>
+    <input type="submit" value="OK" /><br />
+    <br />
+    <table cellpadding="0" cellspacing="1" border="0" style="border-collapse: separate; border: 1px solid #000000;">
+     <tr class="row3">
+      <td>Stunde</td>
+      <td style="width: 200px;"></td>
+      <td>Prozent</td>
+      <td>Besucher</td>
+      <td>Seitenaufrufe</td>
+     </tr>
+
+     <tr class="row1" title="00-01 Uhr: 0 Besucher, 2 Seitenaufrufe">
+      <td>00-01 Uhr:</td>
+      <td style="width: 200px; padding: 0px; padding-right: 0px;"><div class="bar_access_stats_2" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">2</span></td>
+     </tr>
+
+     <tr class="row2" title="01-02 Uhr: 0 Besucher, 0 Seitenaufrufe">
+      <td>01-02 Uhr:</td>
+      <td style="width: 200px; padding: 0px; padding-right: 0px;"><div class="bar_access_stats_2" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="02-03 Uhr: 0 Besucher, 0 Seitenaufrufe">
+      <td>02-03 Uhr:</td>
+      <td style="width: 200px; padding: 0px; padding-right: 0px;"><div class="bar_access_stats_2" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="03-04 Uhr: 0 Besucher, 0 Seitenaufrufe">
+      <td>03-04 Uhr:</td>
+      <td style="width: 200px; padding: 0px; padding-right: 0px;"><div class="bar_access_stats_2" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="04-05 Uhr: 0 Besucher, 0 Seitenaufrufe">
+      <td>04-05 Uhr:</td>
+      <td style="width: 200px; padding: 0px; padding-right: 0px;"><div class="bar_access_stats_2" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="05-06 Uhr: 0 Besucher, 0 Seitenaufrufe">
+      <td>05-06 Uhr:</td>
+      <td style="width: 200px; padding: 0px; padding-right: 0px;"><div class="bar_access_stats_2" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="06-07 Uhr: 0 Besucher, 0 Seitenaufrufe">
+      <td>06-07 Uhr:</td>
+      <td style="width: 200px; padding: 0px; padding-right: 0px;"><div class="bar_access_stats_2" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="07-08 Uhr: 0 Besucher, 0 Seitenaufrufe">
+      <td>07-08 Uhr:</td>
+      <td style="width: 200px; padding: 0px; padding-right: 0px;"><div class="bar_access_stats_2" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="08-09 Uhr: 0 Besucher, 0 Seitenaufrufe">
+      <td>08-09 Uhr:</td>
+      <td style="width: 200px; padding: 0px; padding-right: 0px;"><div class="bar_access_stats_2" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="09-10 Uhr: 0 Besucher, 0 Seitenaufrufe">
+      <td>09-10 Uhr:</td>
+      <td style="width: 200px; padding: 0px; padding-right: 0px;"><div class="bar_access_stats_2" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="10-11 Uhr: 0 Besucher, 0 Seitenaufrufe">
+      <td>10-11 Uhr:</td>
+      <td style="width: 200px; padding: 0px; padding-right: 0px;"><div class="bar_access_stats_2" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="11-12 Uhr: 0 Besucher, 0 Seitenaufrufe">
+      <td>11-12 Uhr:</td>
+      <td style="width: 200px; padding: 0px; padding-right: 0px;"><div class="bar_access_stats_2" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="12-13 Uhr: 0 Besucher, 0 Seitenaufrufe">
+      <td>12-13 Uhr:</td>
+      <td style="width: 200px; padding: 0px; padding-right: 0px;"><div class="bar_access_stats_2" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="13-14 Uhr: 0 Besucher, 0 Seitenaufrufe">
+      <td>13-14 Uhr:</td>
+      <td style="width: 200px; padding: 0px; padding-right: 0px;"><div class="bar_access_stats_2" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="14-15 Uhr: 0 Besucher, 0 Seitenaufrufe">
+      <td>14-15 Uhr:</td>
+      <td style="width: 200px; padding: 0px; padding-right: 0px;"><div class="bar_access_stats_2" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="15-16 Uhr: 0 Besucher, 0 Seitenaufrufe">
+      <td>15-16 Uhr:</td>
+      <td style="width: 200px; padding: 0px; padding-right: 0px;"><div class="bar_access_stats_2" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="16-17 Uhr: 0 Besucher, 0 Seitenaufrufe">
+      <td>16-17 Uhr:</td>
+      <td style="width: 200px; padding: 0px; padding-right: 0px;"><div class="bar_access_stats_2" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="17-18 Uhr: 0 Besucher, 0 Seitenaufrufe">
+      <td>17-18 Uhr:</td>
+      <td style="width: 200px; padding: 0px; padding-right: 0px;"><div class="bar_access_stats_2" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="18-19 Uhr: 0 Besucher, 0 Seitenaufrufe">
+      <td>18-19 Uhr:</td>
+      <td style="width: 200px; padding: 0px; padding-right: 0px;"><div class="bar_access_stats_2" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="19-20 Uhr: 0 Besucher, 0 Seitenaufrufe">
+      <td>19-20 Uhr:</td>
+      <td style="width: 200px; padding: 0px; padding-right: 0px;"><div class="bar_access_stats_2" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="20-21 Uhr: 0 Besucher, 0 Seitenaufrufe">
+      <td>20-21 Uhr:</td>
+      <td style="width: 200px; padding: 0px; padding-right: 0px;"><div class="bar_access_stats_2" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="21-22 Uhr: 0 Besucher, 0 Seitenaufrufe">
+      <td>21-22 Uhr:</td>
+      <td style="width: 200px; padding: 0px; padding-right: 0px;"><div class="bar_access_stats_2" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="22-23 Uhr: 0 Besucher, 0 Seitenaufrufe">
+      <td>22-23 Uhr:</td>
+      <td style="width: 200px; padding: 0px; padding-right: 0px;"><div class="bar_access_stats_2" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="23-24 Uhr: 0 Besucher, 0 Seitenaufrufe">
+      <td>23-24 Uhr:</td>
+      <td style="width: 200px; padding: 0px; padding-right: 0px;"><div class="bar_access_stats_2" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+    </table>
+    <div class="stats_spacer"></div>
+    <div class="stats_title" style="margin-bottom: 10px;">Monatsstatistik</div>
+     <select name="m_month">
+
+      <option value="Jan" selected="selected"> Januar</option>
+
+      <option value="Feb" > Februar</option>
+
+      <option value="Mar" > März</option>
+
+      <option value="Apr" > April</option>
+
+      <option value="May" > Mai</option>
+
+      <option value="Jun" > Juni</option>
+
+      <option value="Jul" > Juli</option>
+
+      <option value="Aug" > August</option>
+
+      <option value="Sep" > September</option>
+
+      <option value="Oct" > Oktober</option>
+
+      <option value="Nov" > November</option>
+
+      <option value="Dec" > Dezember</option>
+
+     </select>
+     <select name="m_year">
+
+      <option value="2007" selected="selected"> 2007</option>
+
+      <option value="2006" > 2006</option>
+
+      <option value="2005" > 2005</option>
+
+     </select>
+     <select name="m_type">
+
+      <option value="visitors" selected="selected"> Besucher</option>
+
+      <option value="page_views" > Seitenaufrufe</option>
+
+     </select>
+     <input type="submit" value="OK" /><br />
+     <br />
+    <table cellpadding="0" cellspacing="1" border="0" style="border-collapse: separate; border: 1px solid #000000;">
+     <tr class="row3">
+      <td>Tag</td>
+      <td style="width: 200px;"></td>
+      <td>Prozent</td>
+      <td>Besucher</td>
+      <td>Seitenaufrufe</td>
+     </tr>
+
+     <tr class="row1" title="Montag, 01.01.2007: 256 Besucher, 780 Seitenaufrufe">
+      <td>01.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 69%;"></div></td>
+      <td>12,59%</td>
+      <td><span class="number_selected">256</span></td>
+      <td><span class="number_unselected">780</span></td>
+     </tr>
+
+     <tr class="row2" title="Dienstag, 02.01.2007: 337 Besucher, 1137 Seitenaufrufe">
+      <td>02.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 91%;"></div></td>
+      <td>16,58%</td>
+      <td><span class="number_selected">337</span></td>
+      <td><span class="number_unselected">1137</span></td>
+     </tr>
+
+     <tr class="row1" title="Mittwoch, 03.01.2007: 358 Besucher, 1021 Seitenaufrufe">
+      <td>03.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 96%;"></div></td>
+      <td>17,61%</td>
+      <td><span class="number_selected">358</span></td>
+      <td><span class="number_unselected">1021</span></td>
+     </tr>
+
+     <tr class="row2" title="Donnerstag, 04.01.2007: 371 Besucher, 1053 Seitenaufrufe">
+      <td>04.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_2" style="width: 100%;"></div></td>
+      <td>18,25%</td>
+      <td><span class="number_selected">371</span></td>
+      <td><span class="number_unselected">1053</span></td>
+     </tr>
+
+     <tr class="row1" title="Freitag, 05.01.2007: 358 Besucher, 1083 Seitenaufrufe">
+      <td>05.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 96%;"></div></td>
+      <td>17,61%</td>
+      <td><span class="number_selected">358</span></td>
+      <td><span class="number_unselected">1083</span></td>
+     </tr>
+
+     <tr class="row2" title="Samstag, 06.01.2007: 353 Besucher, 1014 Seitenaufrufe">
+      <td>06.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 95%;"></div></td>
+      <td>17,36%</td>
+      <td><span class="number_selected">353</span></td>
+      <td><span class="number_unselected">1014</span></td>
+     </tr>
+
+     <tr class="row1" title="Sonntag, 07.01.2007: 0 Besucher, 2 Seitenaufrufe">
+      <td>07.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">2</span></td>
+     </tr>
+
+     <tr class="row2" title="Montag, 08.01.2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>08.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="Dienstag, 09.01.2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>09.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="Mittwoch, 10.01.2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>10.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="Donnerstag, 11.01.2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>11.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="Freitag, 12.01.2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>12.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="Samstag, 13.01.2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>13.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="Sonntag, 14.01.2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>14.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="Montag, 15.01.2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>15.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="Dienstag, 16.01.2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>16.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="Mittwoch, 17.01.2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>17.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="Donnerstag, 18.01.2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>18.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="Freitag, 19.01.2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>19.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="Samstag, 20.01.2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>20.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="Sonntag, 21.01.2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>21.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="Montag, 22.01.2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>22.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="Dienstag, 23.01.2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>23.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="Mittwoch, 24.01.2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>24.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="Donnerstag, 25.01.2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>25.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="Freitag, 26.01.2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>26.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="Samstag, 27.01.2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>27.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="Sonntag, 28.01.2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>28.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="Montag, 29.01.2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>29.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="Dienstag, 30.01.2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>30.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="Mittwoch, 31.01.2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>31.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+    </table>
+    <div class="stats_spacer"></div>
+    <div class="stats_title" style="margin-bottom: 10px;">Kalenderwochen-Statistik</div>
+    <select name="w_month">
+
+     <option value="Jan" selected="selected"> Januar</option>
+
+     <option value="Feb" > Februar</option>
+
+     <option value="Mar" > März</option>
+
+     <option value="Apr" > April</option>
+
+     <option value="May" > Mai</option>
+
+     <option value="Jun" > Juni</option>
+
+     <option value="Jul" > Juli</option>
+
+     <option value="Aug" > August</option>
+
+     <option value="Sep" > September</option>
+
+     <option value="Oct" > Oktober</option>
+
+     <option value="Nov" > November</option>
+
+     <option value="Dec" > Dezember</option>
+
+    </select>
+    <select name="w_year">
+
+     <option value="2007" selected="selected"> 2007</option>
+
+     <option value="2006" > 2006</option>
+
+     <option value="2005" > 2005</option>
+
+    </select>
+    <select name="w_type">
+
+     <option value="visitors" selected="selected"> Besucher</option>
+
+     <option value="page_views" > Seitenaufrufe</option>
+
+    </select>
+    <input type="submit" value="OK" /><br />
+    <br />
+    <table cellpadding="0" cellspacing="1" border="0" style="border-collapse: separate; border: 1px solid #000000">
+     <tr class="row3">
+      <td>Woche</td>
+      <td style="width: 200px;"></td>
+      <td>Prozent</td>
+      <td>Besucher</td>
+      <td>Seitenaufrufe</td>
+     </tr>
+
+     <tr class="row1" title="01. Kalenderwoche (01.01.2007 - 07.01.2007): 2033 Besucher, 6090 Seitenaufrufe">
+      <td>01. KW</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_2" style="width: 100%;"></div></td>
+      <td>100,00%</td>
+      <td><span class="number_selected">2033</span></td>
+      <td><span class="number_unselected">6090</span></td>
+     </tr>
+
+     <tr class="row2" title="02. Kalenderwoche (08.01.2007 - 14.01.2007): 0 Besucher, 0 Seitenaufrufe">
+      <td>02. KW</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="03. Kalenderwoche (15.01.2007 - 21.01.2007): 0 Besucher, 0 Seitenaufrufe">
+      <td>03. KW</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="04. Kalenderwoche (22.01.2007 - 28.01.2007): 0 Besucher, 0 Seitenaufrufe">
+      <td>04. KW</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+    </table>
+    <div class="stats_spacer"></div>
+    <div class="stats_title" style="margin-bottom: 10px;">Jahresstatistik</div>
+    <select name="y_year">
+
+     <option value="2007" selected="selected"> 2007</option>
+
+     <option value="2006" > 2006</option>
+
+     <option value="2005" > 2005</option>
+
+    </select>
+    <select name="y_type">
+
+     <option value="visitors" selected="selected"> Besucher</option>
+
+     <option value="page_views" > Seitenaufrufe</option>
+
+    </select>
+    <input type="submit" value="OK" /><br />
+    <br />
+    <table cellpadding="0" cellspacing="1" border="0" style="border-collapse: separate; border: 1px solid #000000">
+     <tr class="row3">
+      <td>Monat</td>
+      <td style="width: 200px;"></td>
+      <td>Prozent</td>
+      <td>Besucher</td>
+      <td>Seitenaufrufe</td>
+     </tr>
+
+     <tr class="row1" title="Januar 2007: 2033 Besucher, 6090 Seitenaufrufe">
+      <td>Jan.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_2" style="width: 100%;"></div></td>
+      <td>100,00%</td>
+      <td><span class="number_selected">2033</span></td>
+      <td><span class="number_unselected">6090</span></td>
+     </tr>
+
+     <tr class="row2" title="Februar 2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>Feb.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="März 2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>Mär.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="April 2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>Apr.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="Mai 2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>Mai.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="Juni 2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>Jun.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="Juli 2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>Jul.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="August 2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>Aug.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="September 2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>Sep.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="Oktober 2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>Okt.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row1" title="November 2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>Nov.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+     <tr class="row2" title="Dezember 2007: 0 Besucher, 0 Seitenaufrufe">
+      <td>Dez.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">0</span></td>
+     </tr>
+
+    </table>
+    <div class="stats_spacer"></div>
+    <br />
+    <br />
+    <div class="stats_title" style="margin-bottom: 10px;">
+     Die letzten:
+     <select name="l_last">
+
+      <option value="28_days" selected="selected">28 Tage</option>
+
+      <option value="12_months" >12 Monate</option>
+
+      <option value="years" >Jahre</option>
+
+     </select>
+     <select name="l_type">
+
+      <option value="visitors" selected="selected">Besucher</option>
+
+      <option value="page_views" >Seitenaufrufe</option>
+
+     </select>
+     <input type="submit" value="OK" />
+    </div>
+    <table cellpadding="0" cellspacing="1" border="0" style="border-collapse: separate; border: 1px solid #000000">
+
+
+     <tr class="row3">
+      <td>Tag</td>
+      <td style="width: 200px;"></td>
+      <td>Prozent</td>
+      <td>Besucher</td>
+      <td>Seitenaufrufe</td>
+     </tr>
+
+     <tr class="row1" title="Sonntag, 10.12.2006: 250 Besucher, 592 Seitenaufrufe">
+      <td>10.12.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 67%;"></div></td>
+      <td>3,75%</td>
+      <td><span class="number_selected">250</span></td>
+      <td><span class="number_unselected">592</span></td>
+     </tr>
+
+     <tr class="row2" title="Montag, 11.12.2006: 254 Besucher, 736 Seitenaufrufe">
+      <td>11.12.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 68%;"></div></td>
+      <td>3,81%</td>
+      <td><span class="number_selected">254</span></td>
+      <td><span class="number_unselected">736</span></td>
+     </tr>
+
+     <tr class="row1" title="Dienstag, 12.12.2006: 193 Besucher, 575 Seitenaufrufe">
+      <td>12.12.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 52%;"></div></td>
+      <td>2,89%</td>
+      <td><span class="number_selected">193</span></td>
+      <td><span class="number_unselected">575</span></td>
+     </tr>
+
+     <tr class="row2" title="Mittwoch, 13.12.2006: 196 Besucher, 510 Seitenaufrufe">
+      <td>13.12.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 53%;"></div></td>
+      <td>2,94%</td>
+      <td><span class="number_selected">196</span></td>
+      <td><span class="number_unselected">510</span></td>
+     </tr>
+
+     <tr class="row1" title="Donnerstag, 14.12.2006: 177 Besucher, 443 Seitenaufrufe">
+      <td>14.12.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 48%;"></div></td>
+      <td>2,65%</td>
+      <td><span class="number_selected">177</span></td>
+      <td><span class="number_unselected">443</span></td>
+     </tr>
+
+     <tr class="row2" title="Freitag, 15.12.2006: 195 Besucher, 572 Seitenaufrufe">
+      <td>15.12.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 53%;"></div></td>
+      <td>2,92%</td>
+      <td><span class="number_selected">195</span></td>
+      <td><span class="number_unselected">572</span></td>
+     </tr>
+
+     <tr class="row1" title="Samstag, 16.12.2006: 157 Besucher, 453 Seitenaufrufe">
+      <td>16.12.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 42%;"></div></td>
+      <td>2,35%</td>
+      <td><span class="number_selected">157</span></td>
+      <td><span class="number_unselected">453</span></td>
+     </tr>
+
+     <tr class="row2" title="Sonntag, 17.12.2006: 240 Besucher, 670 Seitenaufrufe">
+      <td>17.12.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 65%;"></div></td>
+      <td>3,60%</td>
+      <td><span class="number_selected">240</span></td>
+      <td><span class="number_unselected">670</span></td>
+     </tr>
+
+     <tr class="row1" title="Montag, 18.12.2006: 225 Besucher, 640 Seitenaufrufe">
+      <td>18.12.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 61%;"></div></td>
+      <td>3,37%</td>
+      <td><span class="number_selected">225</span></td>
+      <td><span class="number_unselected">640</span></td>
+     </tr>
+
+     <tr class="row2" title="Dienstag, 19.12.2006: 224 Besucher, 680 Seitenaufrufe">
+      <td>19.12.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 60%;"></div></td>
+      <td>3,36%</td>
+      <td><span class="number_selected">224</span></td>
+      <td><span class="number_unselected">680</span></td>
+     </tr>
+
+     <tr class="row1" title="Mittwoch, 20.12.2006: 207 Besucher, 584 Seitenaufrufe">
+      <td>20.12.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 56%;"></div></td>
+      <td>3,10%</td>
+      <td><span class="number_selected">207</span></td>
+      <td><span class="number_unselected">584</span></td>
+     </tr>
+
+     <tr class="row2" title="Donnerstag, 21.12.2006: 211 Besucher, 625 Seitenaufrufe">
+      <td>21.12.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 57%;"></div></td>
+      <td>3,16%</td>
+      <td><span class="number_selected">211</span></td>
+      <td><span class="number_unselected">625</span></td>
+     </tr>
+
+     <tr class="row1" title="Freitag, 22.12.2006: 167 Besucher, 445 Seitenaufrufe">
+      <td>22.12.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 45%;"></div></td>
+      <td>2,50%</td>
+      <td><span class="number_selected">167</span></td>
+      <td><span class="number_unselected">445</span></td>
+     </tr>
+
+     <tr class="row2" title="Samstag, 23.12.2006: 165 Besucher, 435 Seitenaufrufe">
+      <td>23.12.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 44%;"></div></td>
+      <td>2,47%</td>
+      <td><span class="number_selected">165</span></td>
+      <td><span class="number_unselected">435</span></td>
+     </tr>
+
+     <tr class="row1" title="Sonntag, 24.12.2006: 137 Besucher, 362 Seitenaufrufe">
+      <td>24.12.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 37%;"></div></td>
+      <td>2,05%</td>
+      <td><span class="number_selected">137</span></td>
+      <td><span class="number_unselected">362</span></td>
+     </tr>
+
+     <tr class="row2" title="Montag, 25.12.2006: 189 Besucher, 502 Seitenaufrufe">
+      <td>25.12.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 51%;"></div></td>
+      <td>2,83%</td>
+      <td><span class="number_selected">189</span></td>
+      <td><span class="number_unselected">502</span></td>
+     </tr>
+
+     <tr class="row1" title="Dienstag, 26.12.2006: 236 Besucher, 743 Seitenaufrufe">
+      <td>26.12.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 64%;"></div></td>
+      <td>3,54%</td>
+      <td><span class="number_selected">236</span></td>
+      <td><span class="number_unselected">743</span></td>
+     </tr>
+
+     <tr class="row2" title="Mittwoch, 27.12.2006: 274 Besucher, 764 Seitenaufrufe">
+      <td>27.12.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 74%;"></div></td>
+      <td>4,11%</td>
+      <td><span class="number_selected">274</span></td>
+      <td><span class="number_unselected">764</span></td>
+     </tr>
+
+     <tr class="row1" title="Donnerstag, 28.12.2006: 253 Besucher, 797 Seitenaufrufe">
+      <td>28.12.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 68%;"></div></td>
+      <td>3,79%</td>
+      <td><span class="number_selected">253</span></td>
+      <td><span class="number_unselected">797</span></td>
+     </tr>
+
+     <tr class="row2" title="Freitag, 29.12.2006: 246 Besucher, 663 Seitenaufrufe">
+      <td>29.12.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 66%;"></div></td>
+      <td>3,69%</td>
+      <td><span class="number_selected">246</span></td>
+      <td><span class="number_unselected">663</span></td>
+     </tr>
+
+     <tr class="row1" title="Samstag, 30.12.2006: 218 Besucher, 587 Seitenaufrufe">
+      <td>30.12.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 59%;"></div></td>
+      <td>3,27%</td>
+      <td><span class="number_selected">218</span></td>
+      <td><span class="number_unselected">587</span></td>
+     </tr>
+
+     <tr class="row2" title="Sonntag, 31.12.2006: 224 Besucher, 648 Seitenaufrufe">
+      <td>31.12.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 60%;"></div></td>
+      <td>3,36%</td>
+      <td><span class="number_selected">224</span></td>
+      <td><span class="number_unselected">648</span></td>
+     </tr>
+
+     <tr class="row1" title="Montag, 01.01.2007: 256 Besucher, 780 Seitenaufrufe">
+      <td>01.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 69%;"></div></td>
+      <td>3,84%</td>
+      <td><span class="number_selected">256</span></td>
+      <td><span class="number_unselected">780</span></td>
+     </tr>
+
+     <tr class="row2" title="Dienstag, 02.01.2007: 337 Besucher, 1137 Seitenaufrufe">
+      <td>02.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 91%;"></div></td>
+      <td>5,05%</td>
+      <td><span class="number_selected">337</span></td>
+      <td><span class="number_unselected">1137</span></td>
+     </tr>
+
+     <tr class="row1" title="Mittwoch, 03.01.2007: 358 Besucher, 1021 Seitenaufrufe">
+      <td>03.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 96%;"></div></td>
+      <td>5,37%</td>
+      <td><span class="number_selected">358</span></td>
+      <td><span class="number_unselected">1021</span></td>
+     </tr>
+
+     <tr class="row2" title="Donnerstag, 04.01.2007: 371 Besucher, 1053 Seitenaufrufe">
+      <td>04.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_2" style="width: 100%;"></div></td>
+      <td>5,56%</td>
+      <td><span class="number_selected">371</span></td>
+      <td><span class="number_unselected">1053</span></td>
+     </tr>
+
+     <tr class="row1" title="Freitag, 05.01.2007: 358 Besucher, 1083 Seitenaufrufe">
+      <td>05.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 96%;"></div></td>
+      <td>5,37%</td>
+      <td><span class="number_selected">358</span></td>
+      <td><span class="number_unselected">1083</span></td>
+     </tr>
+
+     <tr class="row2" title="Samstag, 06.01.2007: 353 Besucher, 1014 Seitenaufrufe">
+      <td>06.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 95%;"></div></td>
+      <td>5,29%</td>
+      <td><span class="number_selected">353</span></td>
+      <td><span class="number_unselected">1014</span></td>
+     </tr>
+
+     <tr class="row1" title="Sonntag, 07.01.2007: 0 Besucher, 2 Seitenaufrufe">
+      <td>07.01.</td>
+      <td style="width: 200px; padding: 0px;"><div class="bar_access_stats_1" style="width: 0%;"></div></td>
+      <td>0,00%</td>
+      <td><span class="number_selected">0</span></td>
+      <td><span class="number_unselected">2</span></td>
+     </tr>
+
+
+
+    </table>
+   </div>   <div style="clear: both; text-align: center;">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <i>Zeitzone: UTC +01:00 (MEZ - Mitteleuropäische Zeit) [Sommerzeit, +01:00].</i><br />
+    <br />
+   </div>
+   <div class="navigation_bar" style="height: 15px; background-image:url(../images/bg_bottom.png); background-repeat:repeat-x;">
+    <a href="#top">aufwärts</a> |
+    <span class="counter_info">
+     <a href="http://www.christoph-bachner.net/chcounter">chCounter 3.0.3</a>.
+     Frei verfügbar unter der <a href="http://www.gnu.org/copyleft/gpl.html">GPL</a>.
+     
+    </span>
+   </div>
+  </form>
+ </body>
+</html>

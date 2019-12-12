@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title>chCounter: Seitenstatistiken</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="../templates/stats/style.css" />
+ </head>
+ <body>
+<!-- the counter output. It's included invisible, but as it may print out a JavaScript, it's noted here. -->
+  <!--
+|  chCounter 3.0.3
+|  a counter and statistics script written in PHP
+|  (c) Christoph Bachner, 2005 - released under the GNU GPL
+|  [ http://www.christoph-bachner.net ] 
+-->
+
+<!-- end counter -->
+  <form action="index.php" method="get" style="margin: 0px;">
+   <div class="navigation_bar" style="margin-bottom: 50px; height: 45px; background-image:url(../images/bg_top.png); background-repeat:repeat-x;">
+   <!-- <a class="top_mark">&nbsp;</a> -->
+    <div id="top" class="stats_title" style="margin-bottom: 5px;">Besucherstatistiken für http://go-teneriffa.de.</div>
+
+    <a href="index.php" title="Hauptseite">Hauptseite</a>
+
+    |
+
+    <b><a href="index.php?cat=pages" title="Seiten">Seiten</a></b>
+
+    |
+
+    <a href="index.php?cat=referrers" title="Referrer">Referrer</a>
+
+    |
+
+    <a href="index.php?cat=visitors_details" title="Besucherdetails">Besucherdetails</a>
+
+    |
+
+    <a href="index.php?cat=access_statistics" title="Zugriffsstatistiken">Zugriffsstatistiken</a>
+
+
+    <span style="margin-left: 60px;">
+     Sprache:
+     <select name="lang">
+
+      <option value="de" selected="selected">Deutsch</option>
+
+      <option value="en" >English</option>
+
+      <option value="fr" >Français</option>
+
+      <option value="hu" >Magyar</option>
+
+     </select>
+
+     <input type="hidden" name="cat" value="pages" />
+     
+     <input type="submit" value="OK" />
+    </span>
+   </div>   <div class="center">
+    <div class="stats_title" style="margin-bottom: 15px;">Momentan online:</div>
+    <table class="table_stats" style="width: 500px" cellpadding="0" cellspacing="1">
+     <tr class="row3">
+      <td>Nr.</td>
+      <td>IP</td>
+      <td style="width: 33px;"><!-- User-Agent --></td>
+      <td>Seite</td>
+      <td style="text-align:right">Seitenaufrufe</td>
+      <td style="text-align:right">Letzte Aktivität</td>
+     </tr>
+
+     <tr class="row1">
+      <td>100242</td>
+      <td>64.208.x.x</td>
+      <td>
+
+
+       <img src="../images/robots/alexa.png" alt="" title="Alexa " />
+
+
+       <!-- ia_archiver -->
+      </td>
+      <td><a href="http://go-teneriffa.de/counter/stats/index.php?cat=pages" target="_blank">/counter/stats/index.php?cat=p<br />
+ages</a></td>
+      <td style="text-align:right; width: 80px;">7</td>
+      <td style="text-align:right">07.01.2007, 00:18:52</td>
+     </tr>
+
+
+      <tr class="row3">
+       <td colspan="6" style="text-align:center;">gesamt: <b>1</b> Besucher online</td>
+      </tr>
+
+    </table>
+    <div class="stats_spacer"></div>
+    <div class="stats_title">Die häufigsten Seiten:</div>
+    <div class="stats_start">(seit dem 17.06.2005)</div>
+
+    <table class="table_stats" style="width: 500px" cellpadding="0" cellspacing="1">
+     <tr class="row3">
+      <td>Nr.</td>
+      <td>Seite</td>
+      <td style="text-align:right">Seitenaufrufe</td>
+      <td style="text-align:right">Prozent</td>
+      <td><div style="width: 100px;">&nbsp;</div></td>
+     </tr>
+
+     <tr class="row1">
+      <td>1</td>
+      <td><a href="http://go-teneriffa.de/" target="_blank">Hauptseite</a></td>
+      <td style="text-align:right">55365</td>
+      <td style="text-align:right">19,20%</td>
+      <td><div class="bar_common_2" style="width: 19%;" title="19,20%"></div></td>
+     </tr>
+
+     <tr class="row2">
+      <td>2</td>
+      <td><a href="http://go-teneriffa.de/teneriffasued.htm" target="_blank">Teneriffa S&uuml;d</a></td>
+      <td style="text-align:right">22032</td>
+      <td style="text-align:right">7,64%</td>
+      <td><div class="bar_common_1" style="width: 7%;" title="7,64%"></div></td>
+     </tr>
+
+     <tr class="row1">
+      <td>3</td>
+      <td><a href="http://go-teneriffa.de/teneriffannord.htm" target="_blank">Teneriffa Nord</a></td>
+      <td style="text-align:right">20550</td>
+      <td style="text-align:right">7,13%</td>
+      <td><div class="bar_common_1" style="width: 7%;" title="7,13%"></div></td>
+     </tr>
+
+     <tr class="row2">
+      <td>4</td>
+      <td><a href="http://go-teneriffa.de/teneriffasuedwest.htm" target="_blank">Teneriffa S&uuml;dwest</a></td>
+      <td style="text-align:right">15421</td>
+      <td style="text-align:right">5,35%</td>
+      <td><div class="bar_common_1" style="width: 5%;" title="5,35%"></div></td>
+     </tr>
+
+     <tr class="row1">
+      <td>5</td>
+      <td><a href="http://go-teneriffa.de/teneriffannordwest.htm" target="_blank">Teneriffa Nordwest</a></td>
+      <td style="text-align:right">12771</td>
+      <td style="text-align:right">4,43%</td>
+      <td><div class="bar_common_1" style="width: 4%;" title="4,43%"></div></td>
+     </tr>
+
+     <tr class="row2">
+      <td>6</td>
+      <td><a href="http://go-teneriffa.de/webcam.htm" target="_blank">Webcam</a></td>
+      <td style="text-align:right">12531</td>
+      <td style="text-align:right">4,35%</td>
+      <td><div class="bar_common_1" style="width: 4%;" title="4,35%"></div></td>
+     </tr>
+
+     <tr class="row1">
+      <td>7</td>
+      <td><a href="http://go-teneriffa.de/teneriffasuedost.htm" target="_blank">Teneriffa S&uuml;dost</a></td>
+      <td style="text-align:right">10166</td>
+      <td style="text-align:right">3,53%</td>
+      <td><div class="bar_common_1" style="width: 3%;" title="3,53%"></div></td>
+     </tr>
+
+     <tr class="row2">
+      <td>8</td>
+      <td><a href="http://go-teneriffa.de/teneriffa_hotels.htm" target="_blank">Teneriffa Hotels</a></td>
+      <td style="text-align:right">9388</td>
+      <td style="text-align:right">3,26%</td>
+      <td><div class="bar_common_1" style="width: 3%;" title="3,26%"></div></td>
+     </tr>
+
+     <tr class="row1">
+      <td>9</td>
+      <td><a href="http://go-teneriffa.de/teneriffacharterfluege.htm" target="_blank">Charterfl&uuml;ge</a></td>
+      <td style="text-align:right">9068</td>
+      <td style="text-align:right">3,15%</td>
+      <td><div class="bar_common_1" style="width: 3%;" title="3,15%"></div></td>
+     </tr>
+
+     <tr class="row2">
+      <td>10</td>
+      <td><a href="http://go-teneriffa.de/sanjuan.htm" target="_blank">Teneriffa Finca</a></td>
+      <td style="text-align:right">8990</td>
+      <td style="text-align:right">3,12%</td>
+      <td><div class="bar_common_1" style="width: 3%;" title="3,12%"></div></td>
+     </tr>
+
+     <tr class="row1">
+      <td>11</td>
+      <td><a href="http://go-teneriffa.de/teneriffamietwagen.htm" target="_blank">Mietwagen</a></td>
+      <td style="text-align:right">8088</td>
+      <td style="text-align:right">2,81%</td>
+      <td><div class="bar_common_1" style="width: 2%;" title="2,81%"></div></td>
+     </tr>
+
+     <tr class="row2">
+      <td>12</td>
+      <td><a href="http://go-teneriffa.de/teneriffainfo.htm" target="_blank">Teneriffa Info</a></td>
+      <td style="text-align:right">8046</td>
+      <td style="text-align:right">2,79%</td>
+      <td><div class="bar_common_1" style="width: 2%;" title="2,79%"></div></td>
+     </tr>
+
+     <tr class="row1">
+      <td>13</td>
+      <td><a href="http://go-teneriffa.de/teneriffa_luxusvillen.htm" target="_blank">Teneriffa S&uuml;dwest</a></td>
+      <td style="text-align:right">7406</td>
+      <td style="text-align:right">2,57%</td>
+      <td><div class="bar_common_1" style="width: 2%;" title="2,57%"></div></td>
+     </tr>
+
+     <tr class="row2">
+      <td>14</td>
+      <td><a href="http://go-teneriffa.de/teneriffannordost.htm" target="_blank">Teneriffa Nordost</a></td>
+      <td style="text-align:right">7292</td>
+      <td style="text-align:right">2,53%</td>
+      <td><div class="bar_common_1" style="width: 2%;" title="2,53%"></div></td>
+     </tr>
+
+     <tr class="row1">
+      <td>15</td>
+      <td><a href="http://go-teneriffa.de/teneriffa_landhaeuser.htm" target="_blank">Teneriffa Landh&auml;user</a></td>
+      <td style="text-align:right">5782</td>
+      <td style="text-align:right">2,01%</td>
+      <td><div class="bar_common_1" style="width: 2%;" title="2,01%"></div></td>
+     </tr>
+
+     <tr class="row2">
+      <td>16</td>
+      <td><a href="http://go-teneriffa.de/fewoinelmedano.htm" target="_blank">Fewos in El Medano</a></td>
+      <td style="text-align:right">5644</td>
+      <td style="text-align:right">1,96%</td>
+      <td><div class="bar_common_1" style="width: 1%;" title="1,96%"></div></td>
+     </tr>
+
+     <tr class="row1">
+      <td>17</td>
+      <td><a href="http://go-teneriffa.de/teneriffawetter.htm" target="_blank">Teneriffa Wetter</a></td>
+      <td style="text-align:right">5579</td>
+      <td style="text-align:right">1,94%</td>
+      <td><div class="bar_common_1" style="width: 1%;" title="1,94%"></div></td>
+     </tr>
+
+     <tr class="row2">
+      <td>18</td>
+      <td><a href="http://go-teneriffa.de/tauchenaufteneriffa.htm" target="_blank">Tauchen auf Tene</a></td>
+      <td style="text-align:right">5506</td>
+      <td style="text-align:right">1,91%</td>
+      <td><div class="bar_common_1" style="width: 1%;" title="1,91%"></div></td>
+     </tr>
+
+     <tr class="row1">
+      <td>19</td>
+      <td><a href="http://go-teneriffa.de/chalets_poris_de_abona.htm" target="_blank">Chalets Poris</a></td>
+      <td style="text-align:right">5301</td>
+      <td style="text-align:right">1,84%</td>
+      <td><div class="bar_common_1" style="width: 1%;" title="1,84%"></div></td>
+     </tr>
+
+     <tr class="row2">
+      <td>20</td>
+      <td><a href="http://go-teneriffa.de/hotels_teneriffa_online.htm" target="_blank">Teneriffa Nord</a></td>
+      <td style="text-align:right">4691</td>
+      <td style="text-align:right">1,63%</td>
+      <td><div class="bar_common_1" style="width: 1%;" title="1,63%"></div></td>
+     </tr>
+
+
+     <tr class="row4">
+      <td>&nbsp;</td>
+      <td><b>gesamt: 206</b></td>
+      <td style="text-align:right">288301</td>
+      <td style="text-align:right">100%</td>
+      <td>&nbsp;</td>
+     </tr>
+     <tr style="border: 0px;">
+      <td colspan="5" style="text-align:center">
+       <br />
+       <a href="index.php?cat=pages&amp;list_all=pages"><img src="../images/all_entries_de.png" alt="Zeige alle Einträge!" title="Zeige alle Einträge!" /></a>
+      </td>
+     </tr>
+
+    </table>
+   </div>   <div style="clear: both; text-align: center;">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <i>Zeitzone: UTC +01:00 (MEZ - Mitteleuropäische Zeit) [Sommerzeit, +01:00].</i><br />
+    <br />
+   </div>
+   <div class="navigation_bar" style="height: 15px; background-image:url(../images/bg_bottom.png); background-repeat:repeat-x;">
+    <a href="#top">aufwärts</a> |
+    <span class="counter_info">
+     <a href="http://www.christoph-bachner.net/chcounter">chCounter 3.0.3</a>.
+     Frei verfügbar unter der <a href="http://www.gnu.org/copyleft/gpl.html">GPL</a>.
+     
+    </span>
+   </div>
+  </form>
+ </body>
+</html>

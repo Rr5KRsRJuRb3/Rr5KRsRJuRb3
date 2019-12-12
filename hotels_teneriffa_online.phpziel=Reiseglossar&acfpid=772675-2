@@ -1,0 +1,835 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+<!-- begin counter -->
+<script type="text/javascript">
+<!--
+
+
+
+// chCounter
+// settings:
+cstatus = "active";
+visible = "0";
+page_title = "Teneriffa Nord";
+url_of_counter_file = "http://go-teneriffa.de/counter/counter.php";
+
+////////////////
+page_url = unescape( location.href );
+referrer = ( document.referrer ) ? document.referrer : "";
+page_title = ( page_title.length == 0 ) ? document.title : page_title;
+document.write( "<script type=\"text/javascript\" src=\"" );
+document.write( url_of_counter_file + "?chCounter_mode=js&amp;jscode_version=3.0.3&amp;status=" + cstatus + "&amp;visible=" + visible + "&amp;page_title=" + encodeURIComponent( page_title ) );
+document.write( "&amp;page_url=" + encodeURIComponent( page_url ) + "&amp;referrer=" + encodeURIComponent( referrer ) + "&amp;res_width=" + screen.width + "&amp;res_height=" + screen.height + "\"><" + "/script>" );
+//-->
+</script>
+<noscript>
+ <object data="http://go-teneriffa.de/counter/counter.php?chCounter_mode=noscript" type="text/html"></object>
+</noscript>
+
+<!-- ende counter -->
+
+<title>Hotels auf Teneriffa online buchen.</title>
+<meta http-equiv="Content-Language" content="de">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<meta name="author" content="Uwe Hübel und Wolfgang Göbels Webmaster www.go-teneriffa.de">
+        <meta name="publisher" content="go-Teneriffa.de">
+        <meta name="copyright" content="go-Teneriffa.de">
+        <meta name="page-type" content="COMMERCIAL ORGANISATION">
+        <meta name="content-language" content="DE">
+        <meta name="robots" content="INDEX,FOLLOW">
+        <meta name="revisit-after" content="7 days">
+        <meta name="audience" content="Alle">
+
+
+<meta name="keywords" content="Teneriffa, hotels, hotel, hotelangebot, hotelreservierung, hotelbuchung, buchen, online, Nord, Nordwest, S&uuml;d, S&uuml;dost, S&uuml;dwest,  Infos, Apartments, Appartements, Apartements, ferienhaus, Teneriffa, ferienwohnung, Ferienh&auml;user, Ferienwohnungen, tenerife, ferienhaus teneriffa, ferienwohnung, Unterkunft, teneriffa Wandern, golfen, tauchen, Spanien, Ferienvillen, Privat, Arico, Fincaferien, Surfen, Tauchen, Tauchurlaub, Kanaren, Sonne, Fewo, S&uuml;dost, Feriendomizil, Strand, Poris de Abona, Loroparque, Finka, Finca, Pico del Teide,  Los Cristianos, Playa de las Americas, Canarias,Ferienh&auml;user, Las Galletas, Playa, Icod de los Vinos, Ferien,  Teneriffa S&uuml;d, Exclusive Ferienobjekte, Mietwagen, Fl&uuml;ge, Teneriffa Fl&uuml;ge, El Medano, Pico del Teide, Private, Charterfl&uuml;ge, Teneriffa Reiten, Ferienwohnung, fewos, private, unterk&uuml;nfte, holliday, k&uuml;ste, ferienimobilie, wanderurlaub, spanienferien, villa,ferienunterk&uuml;nfte am meer, privath&auml;user, chalet, inselurlaub, teneriffa-ferien, spanienobjekte, tenerife, finca-ferien, ferienobjekte, badeurlaub, strandurlaub, spanienliebhaber, teneriffa reisen">
+
+<meta name="description" content="Ausgesuchte Hotels auf  Teneriffa, mit vielen Infos und Bildern">
+
+<meta name="page-topic" content="Exclusive Ferienobjekte auf Teneriffa, Reisen, Tourismus, Wohnen, Charterfl&uuml;ge, Freizeit, Urlaub, Ferien, Holiday,Teneriffa S&uuml;d, Ferienhaus, Ferienh&auml;user, Teneriffa Nord, Ferienwohnung, Ferienwohnungen">
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+//-->
+</script>
+</head>
+
+<body background="Hintergruende%20usw/hintergrund%20beige.jpg" link="#000000" vlink="#000000" alink="#000000">
+<table width="968" border="0" cellpadding="0" cellspacing="0">
+  <!--DWLayoutTable-->
+  <tr> 
+    <td colspan="2" rowspan="2" valign="top"><div align="right"><img src="Fotos/teidegelb.jpg" alt="Pico del Teide " width="140" height="105"></div></td>
+    <td height="103" colspan="5" valign="top"><div align="center"> 
+        <p><font size="5"><strong><font size="4" face="Arial, Helvetica, sans-serif">Private 
+          Vermietung von Ferienwohnungen auf Teneriffa.<br>
+          Teneriffa Ferienh&auml;usern, Teneriffa Finca&acute;s, Teneriffa Wohnungen</font></strong><font size="4" face="Arial, Helvetica, sans-serif"><strong><br>
+          </strong></font></font><font size="4" face="Arial, Helvetica, sans-serif"><strong>www.go-teneriffa.de</strong></font></p>
+        <hr>
+      </div></td>
+    <td colspan="2" valign="top"><img src="Fotos/Ansicht2.jpg" alt="Pico del Teide " width="136" height="103"></td>
+    <td width="1">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="32" height="2"></td>
+    <td width="4"></td>
+    <td width="1"></td>
+    <td width="1"></td>
+    <td width="629"></td>
+    <td width="123"></td>
+    <td width="36"></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td width="119" height="22">&nbsp;</td>
+    <td width="22">&nbsp;</td>
+    <td></td>
+    <td colspan="6" rowspan="2"><div align="center"> </div></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td colspan="3" rowspan="6" valign="top"><div align="center"> 
+        <p align="left"><!-- #BeginLibraryItem "/Library/navi_1.lbi" --><font color="#FF0000" size="4"><font size="2" face="Arial, Helvetica, sans-serif"><a href="index.htm"><font color="#000000">Home</font></a></font><font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><strong><br>
+</strong><a href="teneriffainfo.htm">Teneriffa Info</a><strong><br>
+</strong><font color="#FF0000" size="4"><font color="#FF0000" size="4"><font color="#FF0000"><a href="teneriffa_a_z_a.htm"><font color="#000000" size="2">Teneriffa 
+Lexikon A - Z</font></a></font></font></font><strong><br>
+</strong></font></font><!-- #EndLibraryItem --></p>
+        <!-- #BeginLibraryItem "/Library/navi_2.lbi" -->
+<p align="left"><font size="4"><font size="2" face="Arial, Helvetica, sans-serif"><a href="teneriffannord.htm"><strong>Teneriffa 
+  Nord</strong></a><strong><br>
+  <a href="teneriffannordwest.htm">Teneriffa Nordwest</a><br>
+  <a href="teneriffannordost.htm">Teneriffa Nordost</a><br>
+  <a href="teneriffasued.htm">Teneriffa S&uuml;d</a><br>
+  <a href="teneriffasuedost.htm">Teneriffa S&uuml;dost</a></strong></font></font><strong><font color="#FF0000" size="2" face="Arial, Helvetica, sans-serif"><font color="#000000"><br>
+  <a href="teneriffasuedwest.htm">Teneriffa S&uuml;dwest</a><br>
+  <a href="chalets_poris_de_abona.htm">Chalets in Poris de Abona</a><br>
+  <a href="teneriffa_hotels.htm">Teneriffa Hotels</a><br>
+  <a href="teneriffa_finca.htm">Teneriffa Finca</a><br>
+  <a href="teneriffa_luxusvillen.htm">Teneriffa Luxusvillen</a><br>
+  <a href="teneriffa_luxusapartements.htm">Teneriffa Luxusappartements</a><br>
+  <a href="teneriffa_landhaeuser.htm">Teneriffa Landh&auml;user</a><br>
+  <a href="fewoinelmedano.htm">Teneriffa Fewo in El M&eacute;dano</a> </font></font></strong></p>
+<p align="left"><font color="#FF0000" size="2" face="Arial, Helvetica, sans-serif"><font color="#000000"><a href="hotels_teneriffa_online.php"><strong>Hotels 
+  auf Teneriffa</strong></a><strong><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="hotels_teneriffa_online.php">online buchen</a><br>
+  <br>
+  <a href="teneriffa_lastminute.htm">Teneriffa-Lastminute</a><br>
+  <a href="teneriffa_roulettebuchung.htm">Teneriffa Roulettereisen</a></strong> 
+  <font color="#FF0000">NEU </font><br>
+  <br>
+  <a href="teneriffacharterfluege.htm"><strong>Teneriffa Charterfl&uuml;ge</strong></a><strong><br>
+  <a href="teneriffacharterfluege.htm">Fl&uuml;ge weltweit</a><br>
+  <a href="teneriffamietwagen.htm">Teneriffa Mietwagen</a><br>
+  <a href="https://www.urv.de/URVProdukt/servlet/ReiseRuecktritt?p_agentur_nr=50001211" target="_blank">Reiseversicherung</a><br>
+  <a href="ferientermine.htm">Ferientermine<br>
+  </a><a href="webcam.php">Teneriffa Webcam </a></strong></font></font></p>
+<p align="left"><font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><img name="" src="" width="250" height="1" alt=""></font></p>
+<!-- #EndLibraryItem --><div align="left"><!-- #BeginLibraryItem "/Library/navi_3.lbi" --> 
+<p align="left"><font size="2"><font face="Arial, Helvetica, sans-serif"><a href="teneriffastrandregionen.htm"><font color="#000000">Teneriffa 
+  Strandregionen</font></a> <br>
+  <a href="tauchenaufteneriffa.htm"><font color="#000000">Tauchen auf Teneriffa</font></a><br>
+  <a href="elmedano.htm"><font color="#000000">El M&eacute;dano auf Teneriffa</font></a><br>
+  <a href="reitenaufteneriffa.htm"><font color="#000000">Reiten auf Teneriffa</font></a> 
+  <br>
+  <a href="wandernaufteneriffa.htm"><font color="#000000">Wandern auf Teneriffa</font></a><br>
+  <a href="golfenaufteneriffa.htm"><font color="#000000">Golfen auf Teneriffa</font></a><br>
+  <a href="karnevalaufteneriffa.htm"><font color="#000000">Karneval auf Teneriffa</font></a><br>
+  <a href="observatorium.htm"><font color="#000000">Observatorium del Teide</font><br>
+  </a><a href="teneriffawetter.htm"><font color="#000000">Teneriffa Wetter</font> 
+  </a></font></font></p>
+<!-- #EndLibraryItem --><br>
+          <!-- #BeginLibraryItem "/Library/navi_4.lbi" -->
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+<p align="left"><font size="2" face="Arial, Helvetica, sans-serif"><a href="webtipps_unterkuenfte.htm">Unsere 
+  Webtipps</a></font><font color="#FFFFFF" size="2" face="Arial, Helvetica, sans-serif"> 
+  </font></p>
+<p align="left"><font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><a href="unsere_partner.htm">Unsere 
+  Partner </a></font></p>
+<p align="left"><font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><a href="immobilien.htm">Teneriffa 
+  Immobilien</a> </font></p>
+<p align="left"><font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><a href="php%20Formular%20Original/kontakt_anfrage.php">Kontakt</a><br>
+  <a href="impressum.htm">Impressum</a></font></p>
+        <!-- #EndLibraryItem --></div>
+      </div></td>
+    <td height="2"></td>
+  </tr>
+  <tr> 
+    <td colspan="3" rowspan="5">&nbsp;</td>
+    <td colspan="3" rowspan="2" bgcolor="#FF9933"><div align="center">
+        <h1><font size="4" face="Arial, Helvetica, sans-serif"><strong>Hotels
+              auf Teneriffa online buchen</strong></font></h1>
+      </div>
+    </td>
+    <td height="35"></td>
+  </tr>
+  <tr>
+    <td rowspan="3"></td>
+  </tr>
+  <tr>
+      <td colspan="3" valign="top"><div align="center">
+        <table width="600">
+          <tr>
+            <td height="126"><a href="hotels_teneriffa_online_costa_adeje.php"><img src="online_hotels/costa_adeje_150.jpg" alt="Hotels an der Costa Adeje auf Teneriffa" width="150" height="120" border="0"></a></td>
+            <td><a href="hotels_teneriffa_online_costa_silencio.php"><img src="online_hotels/costa_silencio_150.jpg" alt="Hotels an der Costa Silencio auf Teneriffa" width="150" height="120" border="0"></a></td>
+            <td><a href="hotels_teneriffa_online_el_medano.php"><img src="online_hotels/el_medeano_150.jpg" alt="Hotels in El Medano" width="150" height="120" border="0"></a></td>
+            <td><a href="hotels_teneriffa_online_puerto_de_la_cruz.php"><img src="online_hotels/puerto_de_la_cruz_150.jpg" alt="Hotels in  Puerto de la Cruz" width="150" height="120" border="0"></a></td>
+          </tr>
+          <tr bgcolor="#FF9933">
+            <td><p align="center"><a href="hotels_teneriffa_online_costa_adeje.php"><font size="2" face="Arial, Helvetica, sans-serif">Hotels<br>
+  an
+                  der Costa
+                  Adeje</font></a></p>
+            </td>
+            <td><div align="center"><a href="hotels_teneriffa_online_costa_silencio.php"><font size="2" face="Arial, Helvetica, sans-serif">Hotels<br>
+  an der Costa Silencio</font></a></div></td>
+            <td><div align="center"><a href="hotels_teneriffa_online_el_medano.php"><font size="2" face="Arial, Helvetica, sans-serif">Hotels<br>
+  in El Medano</font></a></div></td>
+            <td><div align="center"><a href="hotels_teneriffa_online_puerto_de_la_cruz.php"><font size="2" face="Arial, Helvetica, sans-serif">Hotels in
+                  <br>
+            Puerto de la Cruz</font></a></div></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr bgcolor="#FF9933">
+            <td><div align="center"><a href="hotels_teneriffa_online_playa_de_fanabe.php"><font size="2" face="Arial, Helvetica, sans-serif">Hotels<br>
+              in
+            Playa de Fanabe</font></a></div></td>
+            <td><div align="center"><a href="hotels_teneriffa_online_icod_de_los_vinos.php"><font size="2" face="Arial, Helvetica, sans-serif">Hotels<br>
+              in
+            icod de los Vinos</font></a></div></td>
+            <td><div align="center"><a href="hotels_teneriffa_online_santa_cruz.php"><font size="2" face="Arial, Helvetica, sans-serif">Hotels<br>
+              in
+            Santa Cruz</font></a></div></td>
+            <td><div align="center"><a href="hotels_teneriffa_online_candelaria.php"><font size="2" face="Arial, Helvetica, sans-serif">Hotels<br>
+              in
+            Candelaria</font></a></div></td>
+          </tr>
+        </table>
+      </div></td>
+  </tr>
+  <tr>
+    <td height="35" colspan="3" bgcolor="#FF9933"><div align="center"></div>
+    <div align="center">
+              </div>
+    <p align="center"><html><body><style type="text/css">
+#c4p_anzeige{ text-align: right; font-size: smaller;}
+#c4p_ab-in-den-urlaub {
+}
+#c4p_ab-in-den-urlaub div.c4p {clear:both}
+#c4p_ab-in-den-urlaub ul {list-style-type:none;}
+#c4p_ab-in-den-urlaub ul li {list-style-type:none;}
+#c4p_ab-in-den-urlaub ul li:before {content: "";margin:0;padding:0;}
+#c4p_ab-in-den-urlaub .c4p_ancor, .c4p_ancor:link, .c4p_ancor:visited, .c4p_ancor:active, .c4p_ancor:focus {
+}
+#c4p_ab-in-den-urlaub .c4p_ancor:hover { text-decoration: underline; }
+#c4p_ab-in-den-urlaub .c4p_ancorImage { border: 0px solid;}
+#c4p_ab-in-den-urlaub .c4p_headline1 {
+border-bottom-width: 1px;
+border-bottom-style: solid;
+}
+#c4p_ab-in-den-urlaub .c4p_headline2 {
+border-bottom-width: 1px;
+border-bottom-style: solid;
+}
+#c4p_ab-in-den-urlaub .c4p_breadcrumb {
+font-size: small;
+}
+
+#c4p_ab-in-den-urlaub #c4p_reviews { padding: 0px; float: none; margin-top: 10px; }
+#c4p_ab-in-den-urlaub .c4p_review_headline {font-style:italic; margin-top:5px}
+#c4p_ab-in-den-urlaub #c4p_descriptions { padding: 0px; margin-top: 10px; float: none; }
+#c4p_ab-in-den-urlaub #c4p_top { padding: 0px; margin: 0 0 0 0; float: none; }
+#c4p_ab-in-den-urlaub #c4p_pages { list-style:none outside none; padding: 0px; margin: 0 0 0 0; overflow: auto; }
+#c4p_ab-in-den-urlaub #c4p_pages .c4p_pagelink { float: left; width: 180px; text-align: left; }
+#c4p_ab-in-den-urlaub #c4p_pages .c4p_map {float:left;}
+#c4p_ab-in-den-urlaub #c4p_pages .c4p_map img {box-shadow:0 0 0 white;}
+#c4p_ab-in-den-urlaub #c4p_links { overflow: auto; list-style:none outside none; padding: 0 0 5px 0px;
+margin: 0 0 0 0; float: none; }
+#c4p_ab-in-den-urlaub #c4p_links .c4p_pagelink { float: left; width: 300px; text-align: left; }
+#c4p_ab-in-den-urlaub #c4p_topseller { overflow: auto; list-style:none outside none; padding: 5px 0;
+margin: 0 0 0 0; float: none; }
+#c4p_ab-in-den-urlaub .c4p_topsellerlink{ float: left; width: 30%; text-align: left; }
+#c4p_ab-in-den-urlaub .c4p_border { margin-top: 5px; margin-bottom: 5px; padding-bottom: 5px; float: none;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: #C6D7F5;
+}
+#c4p_ab-in-den-urlaub .c4p_footer { font-size: small; margin-top: 20px; text-align: center;
+border-top-width: 1px;
+border-top-style: solid;
+border-top-color: #C6D7F5;
+}
+#c4p_ab-in-den-urlaub .c4p_keywordPages { text-align: center;
+border-top-width: 1px;
+border-top-style: solid;
+border-top-color: #C6D7F5;
+}
+#c4p_ab-in-den-urlaub .c4p_hotelDescriptionPic { float: right; padding: 5px; border: 0px solid #000000;
+background: none repeat scroll 0 0 transparent; width: 90px; height: 60px;
+}
+
+/* dynamischer content */
+#c4p_offerList .c4p_headline2 {border-bottom-width: 1px; border-bottom-style: solid; }
+#c4p_offerList .c4p_ancor, .c4p_ancor:link, .c4p_ancor:visited, .c4p_ancor:active, .c4p_ancor:focus { }
+#c4p_offerList .c4p_ancor:hover { text-decoration: underline; }
+#c4p_offerList { margin-top: 10px; }
+#c4p_ab-in-den-urlaub_hotels { list-style:none outside none; padding: 0px; margin: 0 0 0 0; text-align: left; }
+#c4p_ab-in-den-urlaub_hotels .c4p_offerContent { margin-bottom:10px; min-height: 70px;
+border-width: 1px;
+border-style: solid;
+border-color: #C6D7F5;
+}
+#c4p_ab-in-den-urlaub_hotels img {padding: 0px; border: 0px solid #000000; margin: 0px;}
+#c4p_ab-in-den-urlaub_hotels .c4p_offerContent .c4p_place { padding-top: 5px; padding-bottom: 5px;  }
+#c4p_ab-in-den-urlaub_hotels .c4p_offerContent .c4p_reviewSeal { float: right; height: 60px; padding: 5px; }
+#c4p_ab-in-den-urlaub_hotels .c4p_offerContent .c4p_containPrice {
+float: right; width: auto; padding-left: 5px; padding-right: 5px; width: 36%;
+}
+#c4p_ab-in-den-urlaub_hotels .c4p_offerContent .c4p_hotelPic { float: left; height: 70px; padding: 5px; }
+#c4p_ab-in-den-urlaub_hotels .c4p_offerContent .c4p_hotelPic img { height: 60px; width: 90px; }
+#c4p_offerList .c4p_paginatorControl{ text-align: center;
+}
+#c4p_offerList .c4p_paginatorControl a.c4p_next, #c4p_offerList .c4p_paginatorControl a.c4p_prev{
+text-align: center;
+}
+#c4p_offerList .c4p_extended { font-size: small; }
+#c4p_offerList .c4p_rangeLink { display: inline-block; margin-bottom: 2px; padding:2px 2px; text-decoration: none;
+border-width: 1px;
+border-style: solid;
+border-color: #C6D7F5;
+}
+#c4p_offerList #c4p_ab-in-den-urlaub_moreLinks { float: right; font-size: small; }
+#c4p_offers_iframe {margin: 0px; padding: 0px; border: 0px solid white;}
+
+/* Formular */
+.c4p_searchImg {visibility: hidden;}
+#c4p_unistersearchBox {border: 1px solid #C6D7F5;
+border-radius: 5px 5px 5px 5px;
+font: 12px/1.5 Arial,Helvetica,sans-serif;
+width: auto;
+margin: 0 0 10px 0;
+}
+#c4p_ab-in-den-urlaub #c4p_unistersearchBox h2 {padding:0 20px 0 20px;margin: 0 0 0 0;}
+#c4p_ab-in-den-urlaub #c4p_unistersearchBox form {margin:0px;padding:0px;}
+#c4p_ab-in-den-urlaub #c4p_form_flattrip, #c4p_form_ownarrival, #c4p_form_flight {clear:both;max-width:580px;}
+#c4p_ab-in-den-urlaub #c4p_form_ownarrival, #c4p_form_flight {display:none;}
+
+#c4p_ab-in-den-urlaub #c4p_unistersearchBox select {height:20px;padding:0;margin:0px;}
+#c4p_ab-in-den-urlaub #c4p_unistersearchBox label {margin:0px;font-size:11px;font-weight:normal;}
+
+#c4p_ab-in-den-urlaub .c4p_offerPacks {margin:0;padding:0 0 0 0;border-bottom:1px solid #C6D7F5;overflow:auto;
+/*background:url('http://content-partner.ab-in-den-urlaub.de/module/aidu/resources/images/hRepeat.png')
+repeat-x 0 -2716px #ddedfc*/}
+#c4p_ab-in-den-urlaub .c4p_offerPacks ul {list-style-type: none;float:left;margin:0px;padding:0px;}
+#c4p_ab-in-den-urlaub .c4p_offerPacks li {height:15px; float:left;padding:5px}
+#c4p_ab-in-den-urlaub .c4p_offerPacks label {height:12px}
+#c4p_ab-in-den-urlaub .c4p_offerPacks span {color:#055786;text-decoration:underline;font-size:12px;height:15px}
+#c4p_ab-in-den-urlaub .c4p_offerPacks input {border:0;margin:0 5px 2px 0}
+
+#c4p_ab-in-den-urlaub .c4p_formularSec {position:relative;font-size: 11px;width: 97%;
+padding-left: 5px;min-height:300px;}
+#c4p_ab-in-den-urlaub div.c4p_formFlight {min-height:240px}
+#c4p_ab-in-den-urlaub .c4p_formularSec fieldset {border: 0;width:auto;padding:0;margin:0;}
+#c4p_ab-in-den-urlaub .c4p_subformElement {margin:0 7px 5px 0;height:36px;float:left;width:150px}
+#c4p_ab-in-den-urlaub .c4p_formularSec input,
+#c4p_ab-in-den-urlaub .c4p_formularSec select {font-size:11px;display:block}
+#c4p_ab-in-den-urlaub .c4p_formularSec input[type="text"] {width:95%;padding:0px;height:18px;}
+#c4p_ab-in-den-urlaub .c4p_formularSec select {display:block;width:100%}
+#c4p_ab-in-den-urlaub .c4p_formularSec button {float:right;
+background:url('http://www.ab-in-den-urlaub.de/images/mainElements.png') no-repeat -572px -1px;height:21px;
+width:26px;text-indent:-9999px;direction:ltr}
+#c4p_ab-in-den-urlaub .c4p_formularSec .c4p_optHotel label,
+#c4p_ab-in-den-urlaub .c4p_formularSec .c4p_child label,
+#c4p_ab-in-den-urlaub .c4p_formularSec .c4p_depDate label,
+#c4p_ab-in-den-urlaub .c4p_formularSec .c4p_retDate label {white-space:nowrap}
+#c4p_ab-in-den-urlaub .c4p_formularSec .c4p_dest,
+#c4p_ab-in-den-urlaub .c4p_formularSec .c4p_depAirport {width:195px}
+#c4p_ab-in-den-urlaub .c4p_formularSec #fieldset-Attribute {clear:both}
+#c4p_ab-in-den-urlaub .c4p_formularSec .c4p_depDate img {padding:0px;}
+#c4p_ab-in-den-urlaub .c4p_formularSec .c4p_retDate img {padding:0px;}
+
+#c4p_ab-in-den-urlaub .c4p_formularSec .c4p_child2,
+#c4p_ab-in-den-urlaub .c4p_formularSec .c4p_child3 {margin-top:16px;height:20px}
+
+#c4p_ab-in-den-urlaub .c4p_formularSec .c4p_adult,
+#c4p_ab-in-den-urlaub .c4p_formularSec .c4p_child,
+#c4p_ab-in-den-urlaub .c4p_formularSec .optPrice,
+#c4p_ab-in-den-urlaub .c4p_formularSec .c4p_optCategory,
+#c4p_ab-in-den-urlaub .c4p_formularSec .c4p_roomtype,
+#c4p_ab-in-den-urlaub .c4p_formularSec .number_of_rooms {width:100px}
+
+#c4p_ab-in-den-urlaub .c4p_formularSec .c4p_duration {width:85px}
+
+#c4p_ab-in-den-urlaub .c4p_formularSec .depTime,
+#c4p_ab-in-den-urlaub .c4p_formularSec .retTime {width:120px}
+
+#c4p_ab-in-den-urlaub #c4p_form_flattrip .c4p_formularSec .c4p_depDate {clear:both;}
+#c4p_ab-in-den-urlaub #c4p_form_ownarrival .c4p_formularSec .c4p_depDate {clear:both;margin:0 16px 5px 0}
+
+#c4p_ab-in-den-urlaub .c4p_formularSec .c4p_depDate,
+#c4p_ab-in-den-urlaub .c4p_formularSec .c4p_retDate {width:105px}
+
+#c4p_ab-in-den-urlaub .c4p_formularSec #flight .c4p_depTime {width:100px;}
+#c4p_ab-in-den-urlaub .c4p_formularSec #flight .c4p_depTimeRange {width:100px;}
+#c4p_ab-in-den-urlaub .c4p_formularSec #flight .c4p_retTime {width:100px;}
+#c4p_ab-in-den-urlaub .c4p_formularSec #flight .c4p_retTimeRange {width:100px;}
+
+#c4p_ab-in-den-urlaub .c4p_formularSec .c4p_multiAttribs {width:160px;overflow:hidden;height:80px}
+#c4p_ab-in-den-urlaub .c4p_formularSec .c4p_multiAttribs label {float:left;width:160px;margin:0 0 3px;
+font-size:12px;height:15px;line-height:13px}
+#c4p_ab-in-den-urlaub .c4p_formularSec .c4p_multiAttribs input {margin-right:5px;float:left;border:none;
+height:12px;line-height:12px}
+
+#c4p_ab-in-den-urlaub .c4p_formularSec .c4p_depDate input,
+#c4p_ab-in-den-urlaub .c4p_formularSec .c4p_retDate input,
+#c4p_ab-in-den-urlaub .c4p_formularSec .dateto input,
+#c4p_ab-in-den-urlaub .c4p_formularSec .datefrom input {width:70px;float:left}
+
+#c4p_ab-in-den-urlaub .c4p_formularSec .c4p_optHotel,
+#c4p_ab-in-den-urlaub .c4p_formularSec .c4p_optMeal {width:194px}
+#c4p_ab-in-den-urlaub .c4p_langingPageSubmitButton {/*float: right;*/ padding: 40px 0px 0 0;
+text-align:right;
+}
+#c4p_ab-in-den-urlaub #c4p_submit {
+background: url("http://content-partner.ab-in-den-urlaub.de/module/aidu/resources/images/mainElements.png") no-repeat scroll -377px -58px transparent;
+cursor: pointer;font-size: 0;height: 52px;line-height: 0;overflow: hidden;width: 186px;border: medium none;}
+#c4p_ab-in-den-urlaub #fieldset-Travellers {}
+#c4p_ab-in-den-urlaub #fieldset-Housing {width:310px;float:left}
+#c4p_ab-in-den-urlaub #fieldset-Attribute {float:left;margin:6px 0 0;width:100%;}
+
+/* For calendar */
+#theme1 {background-color: #F0F0F0;}
+#theme1 h1 {font:normal 18pt Verdana;font-weight: bold;color: #2B4D8C;}
+#theme1 h2 {font:normal 14pt Verdana;font-weight: bold;color: #2B4D8C;padding-top:1em;}
+#theme1 h3 {font:normal 11pt Verdana;font-style: italic;color: #2B4D8C;padding-top:1em;}
+#theme1 p {font:normal 10pt Sans-Serif;color: #5A5A5A;}
+#theme1 a:link {font:normal 10pt Sans-Serif;color: #2B4D8C;text-decoration: underline;}
+#theme1 li {font:normal 10pt Sans-Serif;color: #5A5A5A;padding-bottom: 0.5em;}
+#theme1 code {font: normal 11pt courier;color: black;}
+#theme1 input.flatedit {font: normal 12px Verdana;border-width: 1px;border-style: solid;border-color: black;
+background-color: #DEDEDE;padding: 2px;}
+#theme1 th {font: normal 12px Verdana;font-weight: bold;border-width: 1px;border-style: solid;
+border-color: #5A5A5A;}
+#theme1 td {font: normal 12px Verdana;margin-right:1em;margin-left:1em;border-width: 1px;border-style: solid;
+border-color: #C6C6C6;}
+div.calendarbutton{position: absolute;width: 15px;height: 16px;
+background: transparent url("calendar_icon.png") no-repeat center;}
+#CalendarPickercontrol{background-color: transparent;width: 250px;height: 200px;}
+#CalendarPickercontrol table.calframe{width: 100%;border: 1px solid black;background-color: #CCC;
+text-align: center;}
+#CalendarPickercontrol td.monthname{width: 100%;font: normal 13px Verdana;color: white;font-weight: bold;
+background-color: #2B4D8C;}
+#CalendarPickercontrol table.navigation{width: 100%;text-align: center;}
+#CalendarPickercontrol td.navbutton{font: normal 11px Verdana;color: buttontext;font-weight: bold;
+background-color: #CCCCCC;border-width: 1px;border-style: solid;border-color: #F0F0F0 #A0A0A0 #A0A0A0 #F0F0F0;
+cursor: pointer;position:relative;width:auto;margin-top:0px;margin-left:0px;}
+#CalendarPickercontrol td.navbutton:hover{text-decoration: underline;border-color: #808080 #F0F0F0 #F0F0F0 #808080;
+background-color: #A0A0A0;}
+#CalendarPickercontrol span.yearbutton{cursor: pointer;}
+#CalendarPickercontrol span.yearbutton:hover{text-decoration: underline;}
+#CalendarPickercontrol td.dayname{font: normal 11px Verdana;color: white;font-weight: bold;
+background-color: #2B4D8C;}
+#CalendarPickercontrol td.today{font: normal 11px Verdana;background-color: #CCC;color: red;text-decoration: none;
+cursor: pointer;border-width: 1px;border-style: solid;border-color: #F0F0F0 #A0A0A0 #A0A0A0 #F0F0F0;}
+#CalendarPickercontrol td.today:hover{text-decoration: underline;border-color: #808080 #F0F0F0 #F0F0F0  #808080;
+background-color: #A0A0A0;}
+#CalendarPickercontrol td.current{font: normal 11px Verdana;font-weight: bold;background-color: #2B4D8C;
+color: highlighttext;text-decoration: none;cursor: pointer;border-width: 1px;border-style: solid;
+border-color: #A0A0A0 #F0F0F0 #F0F0F0 #A0A0A0;}
+#CalendarPickercontrol td.current:hover{text-decoration: underline;}
+#CalendarPickercontrol td.day{font: normal 11px Verdana;background-color: #CCCCCC;color: buttontext;
+text-decoration: none;cursor: pointer;border-width: 1px;border-style: solid;
+border-color: #F0F0F0 #A0A0A0 #A0A0A0 #F0F0F0;}
+#CalendarPickercontrol td.day:hover{text-decoration: underline;border-color: #808080 #F0F0F0 #F0F0F0  #808080;
+background-color: #A0A0A0;}
+#CalendarPickercontrol td.weekend{font: normal 11px Verdana;color: buttontext;text-decoration: none;
+background-color: #A0A0A0;font-style: italic;cursor: pointer;border-width: 1px;border-style: solid;
+border-color: #F0F0F0 #808080 #808080 #F0F0F0;}
+#CalendarPickercontrol td.weekend:hover{background-color: #808080;text-decoration: underline;
+border-color: #606060 #F0F0F0 #F0F0F0 #606060;}
+#CalendarPickercontrol td.dayothermonth{font:normal 11px Verdana;background-color: #EEEEEE;
+color: inactivecaptiontext;border: 1px solid #EEEEEE;}
+#CalendarPickercontrol td.weeknumber{font:normal 9px Verdana;background-color: #CCCCCC;
+color: inactivecaptiontext;border-width: 0px;}
+
+#c4p_ab-in-den-urlaub .btnSprite2012 {background:url('http://content-partner.ab-in-den-urlaub.de/module/aidu/resources/images/button2012/btnSprite2012.png') no-repeat 0 0}
+#c4p_ab-in-den-urlaub .btnOuter {position:relative;display:inline-block;box-shadow:0 0 3px 0 #999;border-radius:8px;padding:4px;font:bold 16px/38px Arial;cursor:pointer;overflow:hidden;
+background: url('../images/button2012/buttonGradient.png') repeat-x bottom left #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #d2d2d2 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#d2d2d2)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ffffff 0%,#d2d2d2 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ffffff 0%,#d2d2d2 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #ffffff 0%,#d2d2d2 100%); /* IE10+ */
+background: linear-gradient(to bottom, #ffffff 0%,#d2d2d2 100%) /* W3C */
+}
+
+#c4p_ab-in-den-urlaub .btnInner {color:#fff;text-shadow:1px 1px 1px #417300;display:inline-block;position:relative;border-radius:5px;padding:0 10px;box-shadow:inset 0 0 3px 0 #999;
+background: #61aa01; /* Old browsers */
+background: -moz-linear-gradient(top, #72ca00 0%, #529001 98%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#72ca00), color-stop(98%,#529001)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #72ca00 0%,#529001 98%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #72ca00 0%,#529001 98%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #72ca00 0%,#529001 98%); /* IE10+ */
+background: linear-gradient(to bottom, #72ca00 0%,#529001 98%) /* W3C */}
+
+#c4p_ab-in-den-urlaub .btnElement1 {position:absolute;width:42px;height:40px;border-radius:4px 0 0 4px;top:1px;left:1px;background-position:0 0}
+#c4p_ab-in-den-urlaub .btnElement2 {position:absolute;width:100px;height:1px;top:1px;left:20px;background-position:-105px 0}
+#c4p_ab-in-den-urlaub .btnElement3 {position:relative;vertical-align:middle;display:inline-block;width:25px;height:25px;left:1px;top:0;background-position:-105px -2px}
+#c4p_ab-in-den-urlaub .btnType1 {padding:3px;font:bold 13px/30px Arial}
+
+#c4p_ab-in-den-urlaub .btnType1 .btnElement1 {width:34px;height:30px;background-position:-44px 0}
+#c4p_ab-in-den-urlaub .btnType1 .btnElement2 {width:100px;height:1px;top:1px;left:10px;background-position:-105px 0}
+#c4p_ab-in-den-urlaub .btnType1 .btnElement3 {width:21px;height:21px;left:1px;top:-1px;background-position:-130px -2px}
+
+#c4p_ab-in-den-urlaub .btnType2 {padding:2px;font:bold 11px/24px Arial}
+
+#c4p_ab-in-den-urlaub .btnType2 .btnElement1 {width:27px;height:25px;background-position:-79px 0}
+#c4p_ab-in-den-urlaub .btnType2 .btnElement2 {left:5px;background-position:-105px 0}
+#c4p_ab-in-den-urlaub .btnType2 .btnElement3 {width:17px;height:17px;left:1px;top:0;background-position:-152px -2px}
+
+#c4p_ab-in-den-urlaub .ie7 .btnOuter, .ie8 .btnOuter {border:1px solid #ccc}
+
+#c4p_ab-in-den-urlaub #c4p_form_flight .c4p_formularSec {position:relative;font-size: 11px;
+overflow:auto;padding-left: 0px;}
+#c4p_form_flight fieldset {padding: 0 0 0 0; margin: 0 0 0 0;}
+#c4p_form_flight fieldset #flight {padding: 5px 0 0 10px;}
+#c4p_ab-in-den-urlaub .c4p_roundtrip {height: 24px;width: 100%;padding:6px 0 0 0;
+/*background: url("http://content-partner.ab-in-den-urlaub.de/module/aidu/resources/images/hRepeat.png") repeat-x scroll 0 -2353px #F1F6FC;*/
+}
+#c4p_ab-in-den-urlaub .c4p_roundtrip label {float:left}
+#c4p_ab-in-den-urlaub .c4p_roundtrip input {float:left;height: 12px;margin: 0 5px}
+#c4p_form_flight .c4p_dest,
+#c4p_form_flight .c4p_flightClass,
+#c4p_form_flight .c4p_adult {clear:both}
+#c4p_form_flight .c4p_formularSec .c4p_child2 {margin-top:0px;height:20px}
+#c4p_form_flight .hint {margin: 0 0 0 20px;;height:auto;}
+#c4p_form_flight .c4p_formularSec .c4p_langingPageSubmitButton {margin:0 0 0 80px;float:left;padding:0px;}
+</style>
+<div id="c4p_ab-in-den-urlaub">
+<div class="c4p c4p_breadcrumb">
+<a class="c4p_ancor" href="http://www.go-teneriffa.de/hotels_teneriffa_online.php?ziel=Teneriffa&amp;acfpid=772674">Hotels Teneriffa</a> &raquo; Reiseglossar</div>
+
+<h2 class="c4p_headline1">Reiseglossar</h2>
+
+<div id="c4p_links"><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/langstreckenflug/158393" target="_blank" >Langstreckenflug</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/last-minute-flug/158394" target="_blank" >Last-Minute-Flug</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/le-meridien/2283" target="_blank" >Le M&eacute;ridien</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/leonardo-hotels/3146" target="_blank" >Leonardo Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/lindner-hotels/2284" target="_blank" >Lindner Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/linienflug/158395" target="_blank" >Linienflug</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/lopesan-hotels-resorts/3141" target="_blank" >Lopesan Hotels &amp; Resorts</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/lti-hotels/2285" target="_blank" >Lti Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/luftkurort/2494" target="_blank" >Luftkurort</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/luftverkehr/158396" target="_blank" >Luftverkehr</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/luxusurlaub/2496" target="_blank" >Luxusurlaub</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/marco-polo-hotels/2287" target="_blank" >Marco Polo Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/maritim-hotels/2289" target="_blank" >Maritim Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/marriott-hotels/2288" target="_blank" >Marriott Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/meininger-hotels/3150" target="_blank" >Meininger Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/melia-hotels/2322" target="_blank" >Melia Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/mercure-hotels/2290" target="_blank" >Mercure Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/minibar/2498" target="_blank" >Minibar</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/minotel/2291" target="_blank" >Minotel</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/mobilheim/2499" target="_blank" >Mobilheim</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/motel-6/3135" target="_blank" >Motel 6</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/motel-one/2292" target="_blank" >Motel One</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/motorradurlaub/2500" target="_blank" >Motorradurlaub</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/moevenpick-hotels/2293" target="_blank" >M&ouml;venpick Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/nestor-hotels/2294" target="_blank" >Nestor Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/nh-hotels/2295" target="_blank" >NH Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/nonstop-flug/158397" target="_blank" >Nonstop-Flug</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/novotel/2296" target="_blank" >Novotel</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/nur-flug/158398" target="_blank" >Nur Flug</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/oberoi/2297" target="_blank" >Oberoi</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/one-way-flug/158399" target="_blank" >One-Way Flug</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/online-check-in/158400" target="_blank" >Online-Check-in</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/park-inn/2298" target="_blank" >Park Inn</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/park-plaza/2299" target="_blank" >Park Plaza</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/passagieraufkommen/158401" target="_blank" >Passagieraufkommen</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/passagierlisten/158402" target="_blank" >Passagierlisten</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/pension/2503" target="_blank" >Pension</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/pentahotels/3144" target="_blank" >Pentahotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/pilot/158403" target="_blank" >Pilot</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.geld.de/pkv-auslandskrankenversicherung.html" target="_blank" >PKV Auslandskrankenversicherung</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/preisgarantie/2504" target="_blank" >Preisgarantie</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/preisvergleich-fluege/158404" target="_blank" >Preisvergleich Fl&uuml;ge</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/primasol-hotels/2300" target="_blank" >PrimaSol Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/pullman-hotels/3136" target="_blank" >Pullman Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/quality-hotels/3154" target="_blank" >Quality Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/radisson-blu-hotels-resorts/2301" target="_blank" >Radisson Blu Hotels &amp; Resorts</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/raffles-hotels/2302" target="_blank" >Raffles Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/ramada-hotels/2303" target="_blank" >Ramada Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/red-sea-hotels/2304" target="_blank" >Red Sea Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/regent-hotels/2305" target="_blank" >Regent Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/reise-krankenversicherung/2507" target="_blank" >Reise- Krankenversicherung</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/reise-ruecktrittsversicherung/2508" target="_blank" >Reise- R&uuml;cktrittsversicherung</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/reisebausteine/2509" target="_blank" >Reisebausteine</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/reiseberichte/2510" target="_blank" >Reiseberichte</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/reisebewertungsportal/3130" target="_blank" >Reisebewertungsportal</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/reisebuchung/2511" target="_blank" >Reisebuchung</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/reisebuero/2512" target="_blank" >Reiseb&uuml;ro</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/reisefuehrer/2513" target="_blank" >Reisef&uuml;hrer</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.geld.de/reisegepaeckversicherung.html" target="_blank" >Reisegep&auml;ckversicherung</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/reisegepaeckversicherung/2514" target="_blank" >Reisegep&auml;ckversicherung</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/reisehaftpflichtversicherung/2506" target="_blank" >Reisehaftpflichtversicherung</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/reisekatalog/2515" target="_blank" >Reisekatalog</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/reisekosten/2516" target="_blank" >Reisekosten</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.geld.de/reisekrankenversicherung.html" target="_blank" >Reisekrankenversicherung</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/reiseleiter/2517" target="_blank" >Reiseleiter</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/reisemaengel/2518" target="_blank" >Reisem&auml;ngel</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/reisepass/3627" target="_blank" >Reisepass</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/reisepreis/2519" target="_blank" >Reisepreis</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/reisepreisvergleich/2520" target="_blank" >Reisepreisvergleich</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/reiseroute/2521" target="_blank" >Reiseroute</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.geld.de/reiseversicherung.html" target="_blank" >Reiseversicherung</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/reiseversicherung/2523" target="_blank" >Reiseversicherung</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.geld.de/reiseruecktrittsversicherung.html" target="_blank" >Reisr&uuml;cktrittsversicherung</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/reiterhof/2524" target="_blank" >Reiterhof</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/relaxa-hotels/2306" target="_blank" >Relaxa Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/renaissance-hotels/3133" target="_blank" >Renaissance Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/resort/2525" target="_blank" >Resort</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/restplaetze/2526" target="_blank" >Restpl&auml;tze</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/restplatzreisen/3127" target="_blank" >Restplatzreisen</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/resturlaub/2527" target="_blank" >Resturlaub</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/ritz-carlton/2307" target="_blank" >Ritz-Carlton</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/rosewood-hotels/2311" target="_blank" >Rosewood Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/rotana-hotels/2312" target="_blank" >Rotana Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/rueckflug/158405" target="_blank" >R&uuml;ckflug</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/rundflug/158406" target="_blank" >Rundflug</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/safir-hotels/2313" target="_blank" >Safir Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/sandals-hotels/2314" target="_blank" >Sandals Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/scandic-hotels/2315" target="_blank" >Scandic Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/schiffsreise/2530" target="_blank" >Schiffsreise</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/schnaeppchenfluege/158407" target="_blank" >Schn&auml;ppchenfl&uuml;ge</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/seaside-hotels/2316" target="_blank" >Seaside Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/sehenswuerdigkeiten/2531" target="_blank" >Sehenswuerdigkeiten</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/selbstversorger/2532" target="_blank" >Selbstversorger</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/select-hotels/2317" target="_blank" >Select Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/shangri-la-hotels/2318" target="_blank" >Shangri-La Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/sheraton-hotels/2319" target="_blank" >Sheraton Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/sicherheitskontrolle/158408" target="_blank" >Sicherheitskontrolle</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/sightseeing/2534" target="_blank" >Sightseeing</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/slot/158409" target="_blank" >Slot</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/sofitel-hotels/2321" target="_blank" >Sofitel Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/sommerkataloge-2012/3123" target="_blank" >Sommerkataloge 2012</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/sonesta-hotels/2323" target="_blank" >Sonesta Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/spa/2537" target="_blank" >Spa</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/sporthotel/2538" target="_blank" >Sporthotel</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/sporturlaub/2539" target="_blank" >Sporturlaub</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/sprachreise/2540" target="_blank" >Sprachreise</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/stadthotel/2541" target="_blank" >Stadthotel</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/stadtrundfahrt/2542" target="_blank" >Stadtrundfahrt</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/startbahn/158410" target="_blank" >Startbahn</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/starwood-hotels/2320" target="_blank" >Starwood Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/steigenberger-hotels/2324" target="_blank" >Steigenberger Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/stewardess-und-steward/158411" target="_blank" >Stewardess und Steward</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/stornierung/2543" target="_blank" >Stornierung</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/stornogebuehren/2544" target="_blank" >Stornogeb&uuml;hren</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/stornoreisen/3129" target="_blank" >Stornoreisen</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/strandhotel/2545" target="_blank" >Strandhotel</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/suite/3625" target="_blank" >Suite</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/summit-hotels/2325" target="_blank" >Summit Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/sunrise-resorts/2326" target="_blank" >Sunrise Resorts</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/super-8-hotels/3132" target="_blank" >Super 8 Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/superlastminute/2548" target="_blank" >Superlastminute</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/swissotel/2327" target="_blank" >Swiss&ocirc;tel</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/taj-hotels/2328" target="_blank" >Taj Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/thistle-hotels/2329" target="_blank" >Thistle Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/tomatensaft-und-flugzeug/158412" target="_blank" >Tomatensaft und Flugzeug</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/top-airlines/158413" target="_blank" >Top Airlines</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/tourismus/2550" target="_blank" >Tourismus</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/tower/158414" target="_blank" >Tower</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/tower-hotel-group/2330" target="_blank" >Tower Hotel Group</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/tragflaeche/158415" target="_blank" >Tragfl&auml;che</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/transfer/2551" target="_blank" >Transfer</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/travel-charme-hotels/2331" target="_blank" >Travel Charme Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/treff-hotels/3138" target="_blank" >Treff Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/tulip-inn/3139" target="_blank" >Tulip Inn</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/uebernachtung/2561" target="_blank" >&Uuml;bernachtung</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/umbuchung/2476" target="_blank" >Umbuchung</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/unterkunft/2552" target="_blank" >Unterkunft</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/urlaub/2477" target="_blank" >Urlaub</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/urlaub-auktion/3122" target="_blank" >Urlaub Auktion</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/urlaubsanbieter/3126" target="_blank" >Urlaubsanbieter</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/urlaubshotel/2553" target="_blank" >Urlaubshotel</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/urlaubsziel/2556" target="_blank" >Urlaubsziel</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/vielflieger/158416" target="_blank" >Vielflieger</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/vikingen-hotels/2649" target="_blank" >Vikingen Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/visum/3626" target="_blank" >Visum</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/viva-wyndham-resorts/2332" target="_blank" >Viva Wyndham Resorts</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/viverde-hotels/3152" target="_blank" >Viverde Hotels</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/vollpension/2478" target="_blank" >Vollpension</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/wellness/2557" target="_blank" >Wellness</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/weltreise/2559" target="_blank" >Weltreise</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/hotelketten/westin-hotels-resorts/3145" target="_blank" >Westin Hotels &amp; Resorts</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/winterkataloge-2013/3124" target="_blank" >Winterkataloge 2013</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/zeitverschiebung/2562" target="_blank" >Zeitverschiebung</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/glossar/zelten/2481" target="_blank" >Zelten</a>
+</span><span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de/flug/glossar/zug-zum-flug/158417" target="_blank" >Zug zum Flug</a>
+</span></div>        <a href="#" onclick="abindenurlaub_switchDisplay(); return false;"
+id="c4p_ab-in-den-urlaub_moreLinks">Mehr Seiten</a>
+<div class="c4p_paginatorControl">&nbsp;
+<a href="http://www.go-teneriffa.de/hotels_teneriffa_online.php?ziel=Reiseglossar&amp;acfpid=772675"
+>1</a>
+<span class="c4p_active">&nbsp;2</span>
+</div>
+<div class="c4p_paginatorControl c4p_extended" id="c4p_ab-in-den-urlaub_extended">
+<div>
+2         </div>
+<div>
+</div>
+</div>
+<div class="c4p c4p_keywordPages">
+<span class="c4p_pagelink"><a class="c4p_ancor" href="http://www.go-teneriffa.de/hotels_teneriffa_online.php?ziel=Reiseglossar&amp;acfpid=772675" title="Reiseglossar">Reiseglossar</a></span></div>
+<div class="c4p c4p_footer">
+Inhalte werden von <a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de"
+target="_blank">ab-in-den-urlaub.de</a> und
+<a class="anchor" href="http://www.geld.de/" title="Versicherungsvergleich">GELD.de</a>
+zur Verf&uuml;gung gestellt.<br /></div></div><script type="text/javascript">
+function abindenurlaub_switchDisplay(){
+var element = document.getElementById('c4p_ab-in-den-urlaub_extended');
+if(element.style.display == "none"){
+element.style.display = "block";
+} else {
+element.style.display = "none";
+}
+}
+
+if(document.getElementById('c4p_ab-in-den-urlaub_extended') != null){
+document.getElementById('c4p_ab-in-den-urlaub_extended').style.display = "none";
+}
+</script></body></html>
+</p></td>
+  </tr>
+  <tr> 
+    <td colspan="3" rowspan="4" valign="top"><div align="center">
+      <p>&nbsp;</p>
+        <table width="750">
+          <tr>
+            <td><div align="center"><!-- #BeginLibraryItem "/Library/orte_und_staedte_teneriffa.lbi" --><p align="center"><font size="2" face="Arial, Helvetica, sans-serif"><strong><a href="teneriffa_a_z_a.htm">Weitere 
+                  Informationen zur Kanaren Insel &quot;Teneriffa&quot;</a></strong></font> 
+                
+<p align="center"><font size="2" face="Arial, Helvetica, sans-serif">Unser Reisef&uuml;hrer 
+  -Regionen, Orte und St&auml;dte auf Teneriffa:<br>
+  | <a href="#villaflor"></a><a href="teneriffa_orte.htm#abades">Abades</a> 
+  | <a href="teneriffa_orte.htm#Adeje">Adeje</a> | <a href="teneriffa_orte.htm#Afur">Afur</a> 
+  | <a href="teneriffa_orte.htm#Agua">Aguamansa</a> | <a href="teneriffa_orte.htm#Alcala">Alcala</a> 
+  | <a href="teneriffa_orte.htm#Alcala">Arico</a> | <a href="teneriffa_orte.htm#Alcala">Bajamar</a> 
+  | <a href="teneriffa_orte.htm#buena">Buenaviste del Norte</a> | <a href="teneriffa_orte.htm#candelaria">Candelaria</a> 
+  | <a href="teneriffa_orte.htm#Chamorga">Chamorga</a> | <a href="teneriffa_orte.htm#Chinamada">Chinamada</a> 
+  | <a href="teneriffa_orte.htm#medano">El Medano</a> | <a href="teneriffa_orte.htm#elpries">El 
+  Pris</a> | <a href="teneriffa_orte.htm#puertito">El Puertito</a> | <a href="teneriffa_orte.htm#rosario">El 
+  Rosario</a> I <br>
+  <a href="teneriffa_orte.htm#sauzal">El Sauzal</a> | <a href="teneriffa_orte.htm#tanque">El 
+  Tanque</a> | <a href="teneriffa_orte.htm#garachico">Garachico</a> | <a href="teneriffa_orte.htm#abona">Granadilla 
+  de Abona</a> | <a href="teneriffa_orte.htm#guimar">G&uuml;imar</a> | <a href="teneriffa_orte.htm#icod">Icod 
+  de los Vinos</a> | <a href="teneriffa_orte.htm#iqueste">Igueste</a> | <a href="teneriffa_orte.htm#caleta">La 
+  Caleta</a> | <a href="teneriffa_orte.htm#guancha">La Guancha</a> | <a href="teneriffa_orte.htm#laguna">La 
+  Laguna</a> | <a href="teneriffa_orte.htm#orotava">La Orotava</a> | <a href="teneriffa_orte.htm#vega">La 
+  Vega</a> | <a href="teneriffa_orte.htm#caboneras">Las Caboneras</a> | <a href="teneriffa_orte.htm#galletas">Las 
+  Galletas</a> | <a href="teneriffa_orte.htm#abrigos">Los Abrigos</a> | <a href="teneriffa_orte.htm#cristianos">Los 
+  Cristianos</a> | <a href="teneriffa_orte.htm#gigantes">Los Gigantes</a> | 
+  <a href="teneriffa_orte.htm#silos">Los Silos</a> | <a href="teneriffa_orte.htm#masca">Masca</a> 
+  | <a href="teneriffa_orte.htm#mesa">Mesa del Mar</a> | <a href="teneriffa_orte.htm#pedro">Pedro 
+  Alverez</a> | <a href="teneriffa_orte.htm#americas">Playa de Americas</a> 
+  | <a href="teneriffa_orte.htm#poris">Poris de Abona</a> | <a href="teneriffa_orte.htm#puerto">Puerto 
+  de la Cruz</a> | <a href="teneriffa_orte.htm#punta">Punta de Hidalgo</a> 
+  | <a href="teneriffa_orte.htm#roque">Roque Negro</a> | <a href="teneriffa_orte.htm#andres">San 
+  Andres</a> | <a href="teneriffa_orte.htm#playa">Playa San Juan</a> | <a href="teneriffa_orte.htm#rambla">San 
+  Juan de Rambla</a> | <a href="teneriffa_orte.htm#miguel">San Miguel de Abona</a> 
+  | <a href="teneriffa_orte.htm#santacruz">Santa Cruz</a> | <a href="teneriffa_orte.htm#santaursula">Santa 
+  Ursula</a> | <a href="teneriffa_orte.htm#santiago">Santiago del Teide</a> 
+  | <a href="teneriffa_orte.htm#taborno">Taborno</a> | <a href="teneriffa_orte.htm#Tacoronte">Tacoronte</a> 
+  | <a href="teneriffa_orte.htm#tamaimo">Tamaimo</a> | <a href="teneriffa_orte.htm#Taganana">Taganana</a> 
+  | <a href="teneriffa_orte.htm#valle">Valle de Arriba</a> | <a href="teneriffa_orte.htm#villaflor">Villaflor</a> 
+  | </font></p>
+              <!-- #EndLibraryItem --></div>
+            </td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><div align="center"></div>
+            </td>
+          </tr>
+          <tr>
+            <td><div align="center">
+                <iframe width="145" height="149" marginheight="0" marginwidth="0" frameborder="0"
+ src="http://www.wetteronline.de/cgi-bin/homecif?WMO=60020&PLZN=Teneriffa/Ost&L=de
+&BGC=C6DFFF&B=0"> </iframe>
+                <iframe width="145" height="149" marginheight="0" marginwidth="0" frameborder="0"
+ src="http://www.wetteronline.de/cgi-bin/homecif?WMO=60015&PLZN=Teneriffa/Nord&L=de
+&BGC=C6DFFF&B=0"> </iframe>
+                <iframe width="145" height="149" marginheight="0" marginwidth="0" frameborder="0"
+ src="http://www.wetteronline.de/cgi-bin/homecif?WMO=60025&PLZN=Teneriffa/S%FCd&L=de
+&BGC=C6DFFF&B=0"> </iframe>
+              </div>
+            </td>
+            <td><div align="center"></div>
+            </td>
+          </tr>
+        </table>
+        <p>&nbsp;</p>
+        </div></td>
+    <td height="538"></td>
+  </tr>
+  <tr> 
+    <td height="38" colspan="6"><p align="center"> 
+        <!--Anfang Ferienhausmarkt.com Code -->
+        <a href="http://www.ferienhausmarkt.com/country/spanien/" target="_blank"><font size="1" face="Arial, Helvetica, sans-serif">Ferienwohnung 
+        Spanien</font></a><font size="1" face="Arial, Helvetica, sans-serif"> 
+        und <a href="http://www.ferienhausmarkt.com/region/kanaren/" target="_blank">Ferienwohnung 
+        Kanaren</a> günstig mieten</font> 
+        <!--ENDE Ferienhausmarkt Code -->
+      </p>
+      <p><img src="" width="220" height="1" alt="" style="background-color: #FFFFCC"></p></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td colspan="6" rowspan="3" valign="top"><div align="center"></div></td>
+    <td height="2"></td>
+  </tr>
+  <tr> 
+    <td height="2"></td>
+  </tr>
+  <tr> 
+    <td height="19">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td colspan="10"><div align="center"> 
+        </div>
+    </td>
+  </tr>
+</table>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-2877152-4";
+urchinTracker();
+</script></body>
+</html>

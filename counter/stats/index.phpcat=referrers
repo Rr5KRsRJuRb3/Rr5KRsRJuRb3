@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title>chCounter: Referrer-Statistiken</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="../templates/stats/style.css" />
+ </head>
+ <body>
+<!-- the counter output. It's included invisible, but as it may print out a JavaScript, it's noted here. -->
+  <!--
+|  chCounter 3.0.3
+|  a counter and statistics script written in PHP
+|  (c) Christoph Bachner, 2005 - released under the GNU GPL
+|  [ http://www.christoph-bachner.net ] 
+-->
+
+<!-- end counter -->
+  <form action="index.php" method="get" style="margin: 0px;">
+   <div class="navigation_bar" style="margin-bottom: 50px; height: 45px; background-image:url(../images/bg_top.png); background-repeat:repeat-x;">
+   <!-- <a class="top_mark">&nbsp;</a> -->
+    <div id="top" class="stats_title" style="margin-bottom: 5px;">Besucherstatistiken für http://go-teneriffa.de.</div>
+
+    <a href="index.php" title="Hauptseite">Hauptseite</a>
+
+    |
+
+    <a href="index.php?cat=pages" title="Seiten">Seiten</a>
+
+    |
+
+    <b><a href="index.php?cat=referrers" title="Referrer">Referrer</a></b>
+
+    |
+
+    <a href="index.php?cat=visitors_details" title="Besucherdetails">Besucherdetails</a>
+
+    |
+
+    <a href="index.php?cat=access_statistics" title="Zugriffsstatistiken">Zugriffsstatistiken</a>
+
+
+    <span style="margin-left: 60px;">
+     Sprache:
+     <select name="lang">
+
+      <option value="de" selected="selected">Deutsch</option>
+
+      <option value="en" >English</option>
+
+      <option value="fr" >Français</option>
+
+      <option value="hu" >Magyar</option>
+
+     </select>
+
+     <input type="hidden" name="cat" value="referrers" />
+     
+     <input type="submit" value="OK" />
+    </span>
+   </div>   <div class="box_containing_2_centered_boxes">
+    <div class="left_box_of_2_centered_boxes">
+     <div class="stats_title">Die häufigsten Referrer</div>
+     <div class="stats_start">(seit dem 17.06.2005)</div>
+     <table class="table_stats" cellpadding="0" cellspacing="1">
+      <tr class="row3">
+       <td>Nr.</td>
+       <td>Referrer</td>
+       <td style="text-align: right">Anzahl</td>
+       <td style="text-align: right">Prozent</td>
+       <!-- <td><div style="width: 40px;">&nbsp;</div></td> -->
+      </tr>
+
+      <tr class="row1">
+       <td>1</td>
+       <td>
+
+	http://www.wetter.com/v2/?S...
+
+       </td>
+       <td style="text-align: right">2363</td>
+       <td style="text-align: right">4,40%</td>
+       <!-- <td>
+	<div class="bar_common_2" style="width: 4%;" title="4,40%"></div>
+       </td> -->
+      </tr>
+
+      <tr class="row2">
+       <td>2</td>
+       <td>
+
+	http://www.google.de/search...
+
+       </td>
+       <td style="text-align: right">1191</td>
+       <td style="text-align: right">2,22%</td>
+       <!-- <td>
+	<div class="bar_common_1" style="width: 2%;" title="2,22%"></div>
+       </td> -->
+      </tr>
+
+      <tr class="row1">
+       <td>3</td>
+       <td>
+
+	http://www.wetter.com/v2/?S...
+
+       </td>
+       <td style="text-align: right">1166</td>
+       <td style="text-align: right">2,17%</td>
+       <!-- <td>
+	<div class="bar_common_1" style="width: 2%;" title="2,17%"></div>
+       </td> -->
+      </tr>
+
+      <tr class="row2">
+       <td>4</td>
+       <td>
+
+	http://go-went-gone.com/
+
+       </td>
+       <td style="text-align: right">1064</td>
+       <td style="text-align: right">1,98%</td>
+       <!-- <td>
+	<div class="bar_common_1" style="width: 1%;" title="1,98%"></div>
+       </td> -->
+      </tr>
+
+      <tr class="row1">
+       <td>5</td>
+       <td>
+
+	http://technooffice.com/
+
+       </td>
+       <td style="text-align: right">926</td>
+       <td style="text-align: right">1,72%</td>
+       <!-- <td>
+	<div class="bar_common_1" style="width: 1%;" title="1,72%"></div>
+       </td> -->
+      </tr>
+
+      <tr class="row2">
+       <td>6</td>
+       <td>
+
+	http://www.google.de/search...
+
+       </td>
+       <td style="text-align: right">754</td>
+       <td style="text-align: right">1,40%</td>
+       <!-- <td>
+	<div class="bar_common_1" style="width: 1%;" title="1,40%"></div>
+       </td> -->
+      </tr>
+
+      <tr class="row1">
+       <td>7</td>
+       <td>
+
+	http://www.wendtour.de/part...
+
+       </td>
+       <td style="text-align: right">556</td>
+       <td style="text-align: right">1,03%</td>
+       <!-- <td>
+	<div class="bar_common_1" style="width: 1%;" title="1,03%"></div>
+       </td> -->
+      </tr>
+
+      <tr class="row2">
+       <td>8</td>
+       <td>
+
+	http://www.wetter.com/v2/
+
+       </td>
+       <td style="text-align: right">524</td>
+       <td style="text-align: right">0,98%</td>
+       <!-- <td>
+	<div class="bar_common_1" style="width: 0%;" title="0,98%"></div>
+       </td> -->
+      </tr>
+
+      <tr class="row1">
+       <td>9</td>
+       <td>
+
+	http://www.google.de/search...
+
+       </td>
+       <td style="text-align: right">243</td>
+       <td style="text-align: right">0,45%</td>
+       <!-- <td>
+	<div class="bar_common_1" style="width: 0%;" title="0,45%"></div>
+       </td> -->
+      </tr>
+
+      <tr class="row2">
+       <td>10</td>
+       <td>
+
+	http://www.sonniges-tenerif...
+
+       </td>
+       <td style="text-align: right">214</td>
+       <td style="text-align: right">0,40%</td>
+       <!-- <td>
+	<div class="bar_common_1" style="width: 0%;" title="0,40%"></div>
+       </td> -->
+      </tr>
+
+
+      <tr class="row4">
+       <td>&nbsp;</td>
+       <td><b>gesamt: 29218</b></td>
+       <td style="text-align:right">2363</td>
+       <td style="text-align:right">100%</td>
+       <!-- <td>&nbsp;</td> -->
+      </tr>
+      <tr style="border: 0px;">
+       <td colspan="4" style="text-align:center">
+	<br />
+	<a href="index.php?cat=referrers&amp;list_all=referrers"><img src="../images/all_entries_de.png" alt="Zeige alle Einträge!" title="Zeige alle Einträge!" /></a>
+       </td>
+      </tr>
+
+     </table>
+    </div>
+    <div class="right_box_of_2_centered_boxes">
+     <div class="stats_title">Die häufigsten verweisenden Domains</div>
+     <div class="stats_start">(seit dem 17.06.2005)</div>
+     <table class="table_stats" cellpadding="0" cellspacing="1">
+      <tr class="row3">
+       <td>#</td>
+       <td>Domain</td>
+       <td style="text-align: right">Anzahl</td>
+       <td style="text-align: right">Prozent</td>
+       <!-- <td><div style="width: 50px;">&nbsp;</div></td> -->
+      </tr>
+
+      <tr class="row1">
+       <td>1</td>
+       <td>
+
+	www.google.de
+
+       </td>
+       <td style="text-align: right">24207</td>
+       <td style="text-align: right">44,20%</td>
+       <!-- <td><div class="bar_common_2" style="width: 44%;" title="44,20%"></div></td> -->
+      </tr>
+
+      <tr class="row2">
+       <td>2</td>
+       <td>
+
+	www.wetter.com
+
+       </td>
+       <td style="text-align: right">4696</td>
+       <td style="text-align: right">8,57%</td>
+       <!-- <td><div class="bar_common_1" style="width: 8%;" title="8,57%"></div></td> -->
+      </tr>
+
+      <tr class="row1">
+       <td>3</td>
+       <td>
+
+	www.google.com
+
+       </td>
+       <td style="text-align: right">1963</td>
+       <td style="text-align: right">3,58%</td>
+       <!-- <td><div class="bar_common_1" style="width: 3%;" title="3,58%"></div></td> -->
+      </tr>
+
+      <tr class="row2">
+       <td>4</td>
+       <td>
+
+	www.google.at
+
+       </td>
+       <td style="text-align: right">1421</td>
+       <td style="text-align: right">2,59%</td>
+       <!-- <td><div class="bar_common_1" style="width: 2%;" title="2,59%"></div></td> -->
+      </tr>
+
+      <tr class="row1">
+       <td>5</td>
+       <td>
+
+	search.msn.de
+
+       </td>
+       <td style="text-align: right">1130</td>
+       <td style="text-align: right">2,06%</td>
+       <!-- <td><div class="bar_common_1" style="width: 2%;" title="2,06%"></div></td> -->
+      </tr>
+
+      <tr class="row2">
+       <td>6</td>
+       <td>
+
+	www.google.ch
+
+       </td>
+       <td style="text-align: right">1117</td>
+       <td style="text-align: right">2,04%</td>
+       <!-- <td><div class="bar_common_1" style="width: 2%;" title="2,04%"></div></td> -->
+      </tr>
+
+      <tr class="row1">
+       <td>7</td>
+       <td>
+
+	go-went-gone.com
+
+       </td>
+       <td style="text-align: right">1064</td>
+       <td style="text-align: right">1,94%</td>
+       <!-- <td><div class="bar_common_1" style="width: 1%;" title="1,94%"></div></td> -->
+      </tr>
+
+      <tr class="row2">
+       <td>8</td>
+       <td>
+
+	de.search.yahoo.com
+
+       </td>
+       <td style="text-align: right">1017</td>
+       <td style="text-align: right">1,86%</td>
+       <!-- <td><div class="bar_common_1" style="width: 1%;" title="1,86%"></div></td> -->
+      </tr>
+
+      <tr class="row1">
+       <td>9</td>
+       <td>
+
+	technooffice.com
+
+       </td>
+       <td style="text-align: right">926</td>
+       <td style="text-align: right">1,69%</td>
+       <!-- <td><div class="bar_common_1" style="width: 1%;" title="1,69%"></div></td> -->
+      </tr>
+
+      <tr class="row2">
+       <td>10</td>
+       <td>
+
+	www.wendtour.de
+
+       </td>
+       <td style="text-align: right">575</td>
+       <td style="text-align: right">1,05%</td>
+       <!-- <td><div class="bar_common_1" style="width: 1%;" title="1,05%"></div></td> -->
+      </tr>
+
+
+      <tr class="row4">
+       <td>&nbsp;</td>
+       <td><b>gesamt: 1944</b></td>
+       <td style="text-align: right">54772</td>
+       <td style="text-align: right">100%</td>
+       <!-- <td>&nbsp;</td> -->
+      </tr>
+      <tr style="border: 0px;">
+       <td colspan="4" style="text-align:center">
+	<br />
+	<a href="index.php?cat=referrers&amp;list_all=referring_domains"><img src="../images/all_entries_de.png" alt="Zeige alle Einträge!" title="Zeige alle Einträge!" /></a>
+       </td>
+      </tr>
+
+     </table>
+    </div>
+    <div style="clear: both"><!-- This div is needed, otherwise the IE may cut the left table if it is larger than the right one... --></div>
+   </div>
+   <div class="stats_spacer"></div>
+   <div class="box_containing_2_centered_boxes">
+    <div class="left_box_of_2_centered_boxes">
+     <div class="stats_title">Die häufigsten Suchwörter/Suchphrasen</div>
+     <div class="stats_start">(seit dem 17.06.2005)</div>
+     <div style="text-align: center;">
+      Zeige:
+      <select name="kp">
+
+       <option value="keywords" selected="selected">Suchwörter</option>
+
+       <option value="search_phrases" >Suchphrasen</option>
+
+      </select>
+      <input type="submit" value="OK" />
+     </div>
+     <br />
+     <table class="stats_table" cellpadding="0" cellspacing="1">
+
+      <tr class="row3">
+       <td>#</td>
+       <td>Suchwort</td>
+       <td style="text-align: right">Anzahl</td>
+       <td style="text-align: right">Prozent</td>
+       <td style="width: 100px;">&nbsp;</td>
+      </tr>
+
+      <tr class="row1">
+       <td>1</td>
+       <td>teneriffa</td>
+       <td style="text-align: right">22307</td>
+       <td style="text-align: right">29,15%</td>
+       <td><div class="bar_common_2" style="width: 29%;" title="teneriffa: 29,15%"></div></td>
+      </tr>
+
+      <tr class="row2">
+       <td>2</td>
+       <td>auf</td>
+       <td style="text-align: right">2337</td>
+       <td style="text-align: right">3,05%</td>
+       <td><div class="bar_common_1" style="width: 3%;" title="auf: 3,05%"></div></td>
+      </tr>
+
+      <tr class="row1">
+       <td>3</td>
+       <td>finca</td>
+       <td style="text-align: right">1569</td>
+       <td style="text-align: right">2,05%</td>
+       <td><div class="bar_common_1" style="width: 2%;" title="finca: 2,05%"></div></td>
+      </tr>
+
+      <tr class="row2">
+       <td>4</td>
+       <td>webcam</td>
+       <td style="text-align: right">1359</td>
+       <td style="text-align: right">1,78%</td>
+       <td><div class="bar_common_1" style="width: 1%;" title="webcam: 1,78%"></div></td>
+      </tr>
+
+      <tr class="row1">
+       <td>5</td>
+       <td>medano</td>
+       <td style="text-align: right">1331</td>
+       <td style="text-align: right">1,74%</td>
+       <td><div class="bar_common_1" style="width: 1%;" title="medano: 1,74%"></div></td>
+      </tr>
+
+      <tr class="row2">
+       <td>6</td>
+       <td>ferienh&auml;user</td>
+       <td style="text-align: right">1225</td>
+       <td style="text-align: right">1,60%</td>
+       <td><div class="bar_common_1" style="width: 1%;" title="ferienh&auml;user: 1,60%"></div></td>
+      </tr>
+
+      <tr class="row1">
+       <td>7</td>
+       <td>ferienwohnung</td>
+       <td style="text-align: right">1169</td>
+       <td style="text-align: right">1,53%</td>
+       <td><div class="bar_common_1" style="width: 1%;" title="ferienwohnung: 1,53%"></div></td>
+      </tr>
+
+      <tr class="row2">
+       <td>8</td>
+       <td>ferienhaus</td>
+       <td style="text-align: right">1168</td>
+       <td style="text-align: right">1,53%</td>
+       <td><div class="bar_common_1" style="width: 1%;" title="ferienhaus: 1,53%"></div></td>
+      </tr>
+
+      <tr class="row1">
+       <td>9</td>
+       <td>wetter</td>
+       <td style="text-align: right">1034</td>
+       <td style="text-align: right">1,35%</td>
+       <td><div class="bar_common_1" style="width: 1%;" title="wetter: 1,35%"></div></td>
+      </tr>
+
+      <tr class="row2">
+       <td>10</td>
+       <td>immobilien</td>
+       <td style="text-align: right">891</td>
+       <td style="text-align: right">1,16%</td>
+       <td><div class="bar_common_1" style="width: 1%;" title="immobilien: 1,16%"></div></td>
+      </tr>
+
+
+      <tr class="row4">
+       <td>&nbsp;</td>
+       <td><b>gesamt: 4393</b></td>
+       <td style="text-align: right">76529</td>
+       <td style="text-align: right">100%</td>
+       <td>&nbsp;</td>
+      </tr>
+      <tr style="border: 0px;">
+       <td colspan="5" style="text-align:center">
+	<br />
+	<a href="index.php?cat=referrers&amp;list_all=keywords"><img src="../images/all_entries_de.png" alt="Zeige alle Einträge!" title="Zeige alle Einträge!" /></a>
+       </td>
+      </tr>
+
+
+
+
+
+
+     </table>
+    </div>
+    <div class="right_box_of_2_centered_boxes">
+     <div class="stats_title">Die häufigsten Suchmaschinen</div>
+     <div class="stats_start">(seit dem 17.06.2005)</div>
+     <table class="table_stats" cellpadding="0" cellspacing="1">
+      <tr class="row3">
+       <td>#</td>
+       <td>&nbsp;</td>
+       <td>Suchmaschine</td>
+       <td style="text-align: right">Anzahl</td>
+       <td style="text-align: right">Prozent</td>
+       <td style="width: 100px;">&nbsp;</td>
+      </tr>
+
+      <tr class="row1">
+       <td>1</td>
+       <td><img src="../images/search_engines/google.png" alt="" title="Google" /></td>
+       <td>Google</td>
+       <td style="text-align: right">37700</td>
+       <td style="text-align: right">89,66%</td>
+       <td><div class="bar_common_2" style="width: 89%;" title="Google: 89,66%"></div></td>
+      </tr>
+
+      <tr class="row2">
+       <td>2</td>
+       <td><img src="../images/search_engines/msn.png" alt="" title="MSN" /></td>
+       <td>MSN</td>
+       <td style="text-align: right">1533</td>
+       <td style="text-align: right">3,65%</td>
+       <td><div class="bar_common_1" style="width: 3%;" title="MSN: 3,65%"></div></td>
+      </tr>
+
+      <tr class="row1">
+       <td>3</td>
+       <td><img src="../images/search_engines/yahoo.png" alt="" title="Yahoo!" /></td>
+       <td>Yahoo!</td>
+       <td style="text-align: right">1189</td>
+       <td style="text-align: right">2,83%</td>
+       <td><div class="bar_common_1" style="width: 2%;" title="Yahoo!: 2,83%"></div></td>
+      </tr>
+
+      <tr class="row2">
+       <td>4</td>
+       <td><img src="../images/search_engines/aol.png" alt="" title="AOL" /></td>
+       <td>AOL</td>
+       <td style="text-align: right">501</td>
+       <td style="text-align: right">1,19%</td>
+       <td><div class="bar_common_1" style="width: 1%;" title="AOL: 1,19%"></div></td>
+      </tr>
+
+      <tr class="row1">
+       <td>5</td>
+       <td><img src="../images/search_engines/t-online.png" alt="" title="T-Online" /></td>
+       <td>T-Online</td>
+       <td style="text-align: right">355</td>
+       <td style="text-align: right">0,84%</td>
+       <td><div class="bar_common_1" style="width: 0%;" title="T-Online: 0,84%"></div></td>
+      </tr>
+
+      <tr class="row2">
+       <td>6</td>
+       <td><img src="../images/search_engines/web.de.png" alt="" title="Web.de" /></td>
+       <td>Web.de</td>
+       <td style="text-align: right">209</td>
+       <td style="text-align: right">0,50%</td>
+       <td><div class="bar_common_1" style="width: 0%;" title="Web.de: 0,50%"></div></td>
+      </tr>
+
+      <tr class="row1">
+       <td>7</td>
+       <td><img src="../images/search_engines/lycos.png" alt="" title="Lycos" /></td>
+       <td>Lycos</td>
+       <td style="text-align: right">165</td>
+       <td style="text-align: right">0,39%</td>
+       <td><div class="bar_common_1" style="width: 0%;" title="Lycos: 0,39%"></div></td>
+      </tr>
+
+      <tr class="row2">
+       <td>8</td>
+       <td><img src="../images/search_engines/search_engine.png" alt="" title="suche.freenet.de" /></td>
+       <td>suche.freenet.de</td>
+       <td style="text-align: right">125</td>
+       <td style="text-align: right">0,30%</td>
+       <td><div class="bar_common_1" style="width: 0%;" title="suche.freenet.de: 0,30%"></div></td>
+      </tr>
+
+      <tr class="row1">
+       <td>9</td>
+       <td><img src="../images/search_engines/altavista.png" alt="" title="Altavista" /></td>
+       <td>Altavista</td>
+       <td style="text-align: right">85</td>
+       <td style="text-align: right">0,20%</td>
+       <td><div class="bar_common_1" style="width: 0%;" title="Altavista: 0,20%"></div></td>
+      </tr>
+
+      <tr class="row2">
+       <td>10</td>
+       <td><img src="../images/search_engines/fireball.png" alt="" title="Fireball" /></td>
+       <td>Fireball</td>
+       <td style="text-align: right">75</td>
+       <td style="text-align: right">0,18%</td>
+       <td><div class="bar_common_1" style="width: 0%;" title="Fireball: 0,18%"></div></td>
+      </tr>
+
+
+      <tr class="row4">
+       <td>&nbsp;</td>
+       <td>&nbsp;</td>
+       <td><b>gesamt: 22</b></td>
+       <td style="text-align: right">42046</td>
+       <td style="text-align: right">100%</td>
+       <td>&nbsp;</td>
+      </tr>
+      <tr style="border: 0px;">
+       <td colspan="5" style="text-align:center">
+	<br />
+	<a href="index.php?cat=referrers&amp;list_all=search_engines"><img src="../images/all_entries_de.png" alt="Zeige alle Einträge!" title="Zeige alle Einträge!" /></a>
+       </td>
+      </tr>
+
+     </table>
+    </div>
+    <div style="clear: both"><!-- This div is needed, otherwise the IE may cut the left table if it is larger than the right one... --></div>        
+   </div>   <div style="clear: both; text-align: center;">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <i>Zeitzone: UTC +01:00 (MEZ - Mitteleuropäische Zeit) [Sommerzeit, +01:00].</i><br />
+    <br />
+   </div>
+   <div class="navigation_bar" style="height: 15px; background-image:url(../images/bg_bottom.png); background-repeat:repeat-x;">
+    <a href="#top">aufwärts</a> |
+    <span class="counter_info">
+     <a href="http://www.christoph-bachner.net/chcounter">chCounter 3.0.3</a>.
+     Frei verfügbar unter der <a href="http://www.gnu.org/copyleft/gpl.html">GPL</a>.
+     
+    </span>
+   </div>
+  </form>
+ </body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<title>Anzeige drucken</title>
+    <script language="Javascript">
+<!--
+var name=navigator.appName;
+var ver=navigator.appVersion.substring(0,1);
+
+if ((name=="Microsoft Internet Explorer") && (parseInt(ver) >= 4))
+{
+        document.write("<link rel='stylesheet' href='css/adbcie.css' type='text/css'>");
+}
+
+if (name=="Netscape")
+{
+        if (parseInt(ver) == 4)
+        { document.write("<link rel='stylesheet' href='css/adbcns.css' type='text/css'>");
+        }
+
+        if (parseInt(ver) >= 5)
+        { document.write("<link rel='stylesheet' href='css/adbcie.css' type='text/css'>");
+        }
+}
+//-->
+</script>
+<title>ADBC-Pro Version 10.0</title>
+<SCRIPT LANGUAGE="JavaScript" >
+<!--
+function pictures(URL)
+{
+  window.open(URL, 'userpics', 'width=640,height=480,location=no,menubar=no,directories=no,toolbar=no,scrollbars=yes,resizable=yes,status=no,position=center');
+}
+// -->
+</SCRIPT>
+</head>
+
+<body>
+<table border="0" cellpadding="2" cellspacing="1"
+        width="650" bgcolor="">
+            <tr>
+                <td align="center" valign="top"  colspan="2">
+[ <a href="javascript:window.print()"><img src="http://go-teneriffa.de/_anzeigenmarkt/images/print.gif" align="texttop" border="0"> Drucken ?</a> ] </td>
+            </tr>
+            </tr>
+        </table>
+<table width="680" class="normaltablecolor"><tr><td valign="top" align="center">
+<a href="javascript:pictures('view.php?pic=44d9bdd58de2b721.jpg')">
+<img src="http://go-teneriffa.de/_anzeigenmarkt/userpics/44d9bdd58de2b721.jpg" width="110" height="72" border="0"></a></td><td valign="top" align="center">
+<a href="javascript:pictures('view.php?pic=44d9bdd597a6c72.gif')">
+<img src="http://go-teneriffa.de/_anzeigenmarkt/userpics/44d9bdd597a6c72.gif" width="110" height="72" border="0"></a></td></tr><tr><td valign="top" colspan="5" ></td></tr>
+<tr><td valign="top" colspan="5" bgcolor="#005680" height="1"></td></tr>
+</table>
+<TABLE WIDTH="650" cellpadding=2 cellspacing=0 border=0 bgcolor="">
+<TR>
+<TD VALIGN=TOP width=95%>
+<TABLE WIDTH="650" cellpadding=0 cellspacing=2 border=0 bgcolor="">
+<TR><TD valign=top COLSPAN=2><font face="arial, helvetica" size="2">Anzeige-ID: 0000083  aufgegeben am 18.11.2010   und läuft aus am 14.06.2011<br><br><b> Kiddygo - Kindervorsorge, mehr Sicherheit für Ihr Kind!</b></TD></TR>
+<TR><TD height="5" COLSPAN=2><img src="images/blank.gif" height="5" width="1"></TD></td></TR>
+<TR>
+<TD VALIGN=top COLSPAN=2 BGCOLOR="#EEEEEE">
+<font face="arial, helvetica" size="2"><b>Kontakt</b>
+</TD>
+</TR>
+<TR><TD height="5" COLSPAN=2><img src="images/blank.gif" height="5" width="1"></TD></td></TR>
+<TR>
+<TD VALIGN=TOP><font face="arial, helvetica" size="2" COLOR="#666699">
+<B>Aufgegeben von:</TD>
+<TD VALIGN=TOP><font face="arial, helvetica" size="2" >
+Frau Karin Schlösser</TD>
+</TR>
+<TR>
+<TD VALIGN=TOP><font face="arial, helvetica" size="2" COLOR="#666699">
+<B>Telefon:</TD>
+<TD VALIGN=TOP><font face="arial, helvetica" size="2" > 02241-53422</TD>
+</TR>
+<TR>
+<TD VALIGN=TOP><font face="arial, helvetica" size="2" COLOR="#666699">
+<B>Anschrift:</TD>
+<TD VALIGN=TOP><font face="arial, helvetica" size="2" >
+Bismarckstr. 51<br>53721 Siegburg<br></TD>
+</TR>
+
+
+<TR><TD height="5" COLSPAN=2><img src="images/blank.gif" height="5" width="1"></TD></td></TR>
+<TR>
+<TD VALIGN=top COLSPAN=2 BGCOLOR="#EEEEEE">
+<font face="arial, helvetica" size="2"><b>Anzeigeninformationen</b>
+</TD>
+</TR>
+<TR><TD VALIGN=TOP><font face="arial, helvetica" size=2 COLOR="#666699"><b>Anbieter</b></TD><TD><font face="arial, helvetica" size=2 >Gewerblich</TD></TR>
+<TR><td colspan="2" height="1" bgcolor="#EEEEEE"><img src="images/blank.gif" height=1 width=1></TD></TR>
+<TR><TD VALIGN=TOP><font face="arial, helvetica" size=2 COLOR="#666699"><b>Postleitzahl/Ort:</b></TD><TD><font face="arial, helvetica" size=2 >53721 Siegburg</TD></TR>
+<TR><td colspan="2" height="1" bgcolor="#EEEEEE"><img src="images/blank.gif" height=1 width=1></TD></TR>
+
+<TR><TD VALIGN=TOP><font face="arial, helvetica" size=2 COLOR="#666699"><b>Art der Anzeige</b></TD><TD><font face="arial, helvetica" size=2 >Biete</TD></TR>
+<TR><td colspan="2" height="1" bgcolor="#EEEEEE"><img src="images/blank.gif" height=1 width=1></TD></TR>
+<!-- Differenzierung zwischen select und normal -->
+
+
+<!-- Differenzierung zwischen select und nornal ende -->
+
+<TD VALIGN=top COLSPAN=2 BGCOLOR="#EEEEEE">
+<font face="arial, helvetica" size="2"><b>Anzeigeninformationen</b>
+</TD>
+<TR><TD VALIGN=TOP><font face="arial, helvetica" size=2 COLOR="#666699"><b>Ihre Homepage</b></TD><TD><font face="arial, helvetica" size=2>http://www.kiddygo.de</TD></TR>
+<TR><td colspan="2" height="1" bgcolor="#EEEEEE"><img src="images/blank.gif" height=1 width=1></TD></TR>
+
+
+<TR><TD VALIGN=TOP><font face="arial, helvetica" size=2 COLOR="#666699"><b>Preis-Zusatz</b></TD><TD><font face="arial, helvetica" size=2>FP</TD></TR>
+<TR><td colspan="2" height="1" bgcolor="#EEEEEE"><img src="images/blank.gif" height=1 width=1></TD></TR>
+
+
+<TR>
+<TD VALIGN=top COLSPAN=2 BGCOLOR="#eeeeee">
+<font face="arial, helvetica" size=2 COLOR="#000000"><b>Anzeigentext</b>
+</TD>
+</TR>
+<TR><TD VALIGN=TOP colspan="2"><font face="arial, helvetica" size=2>Kindervorsorgevergleich und Kindervorsorgeberatung. Kindervorsorgeversicherung und Kindersparpläne für die Zukunft, für Studium und Ausbildung Ihrer Kinder und Enkel. Mit Kinderbetreuungsservice: Babysitter- & Tagesmutterdienst.</TD></TR>
+<TR><td colspan="2" height="1" bgcolor="#EEEEEE"><img src="images/blank.gif" height=1 width=1></TD></TR>
+</TABLE>
+</TD>
+</TR>
+</table>
+</body>
+</html>
