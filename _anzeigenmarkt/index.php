@@ -127,7 +127,7 @@ einfachen HTML-Tabellen.
 &nbsp;<input type="submit" value="Suchen" name="submit">
 </div></form></td>
 <td align="right" valign="top"><div class="klein">
-Montag, 6. Juli 2015  &nbsp;&nbsp; Zeit:    15:33:32</div>
+Dienstag, 8. November 2016  &nbsp;&nbsp; Zeit:    12:04:22</div>
 
 
 </td></tr></table>
@@ -203,9 +203,9 @@ width="100%" class="headertablecolor">
 </tr>
 <tr>
 <td valign="top" class="normal">Bitte wählen Sie die Hauptrubrik in der Sie Anzeigen lesen möchten<br><br>
-<div class="klein">Registrierte Nutzer: 63</div><div class="klein">Aktuelle Anzeigen: 237</div><br><table border ="0" cellpadding="5" cellspacing="0"><tr><td valign="top" width="33%"><table border ="0" cellpadding="0" cellspacing="3"><tr><td valign="top"><img src="http://go-teneriffa.de/_anzeigenmarkt/images/pfeil.gif" width="12" height="15" align="left"></td><td valign="top">
-<a href="index.php?request=select_sub_cat&MainID=1">Urlaub & Reise</a> <font size="1">(230)</font><br><div class="klein"></div></td></tr><tr><td valign="top"><img src="http://go-teneriffa.de/_anzeigenmarkt/images/pfeil.gif" width="12" height="15" align="left"></td><td valign="top">
-<a href="index.php?request=select_sub_cat&MainID=18">Verschiedenes</a> <font size="1">(1)</font><br><div class="klein"></div></td></tr><tr><td valign="top"><img src="http://go-teneriffa.de/_anzeigenmarkt/images/pfeil.gif" width="12" height="15" align="left"></td><td valign="top">
+<div class="klein">Registrierte Nutzer: 73</div><div class="klein">Aktuelle Anzeigen: 232</div><br><table border ="0" cellpadding="5" cellspacing="0"><tr><td valign="top" width="33%"><table border ="0" cellpadding="0" cellspacing="3"><tr><td valign="top"><img src="http://go-teneriffa.de/_anzeigenmarkt/images/pfeil.gif" width="12" height="15" align="left"></td><td valign="top">
+<a href="index.php?request=select_sub_cat&MainID=1">Urlaub & Reise</a> <font size="1">(229)</font><br><div class="klein"></div></td></tr><tr><td valign="top"><img src="http://go-teneriffa.de/_anzeigenmarkt/images/pfeil.gif" width="12" height="15" align="left"></td><td valign="top">
+<a href="index.php?request=select_sub_cat&MainID=18">Verschiedenes</a> <font size="1">(0)</font><br><div class="klein"></div></td></tr><tr><td valign="top"><img src="http://go-teneriffa.de/_anzeigenmarkt/images/pfeil.gif" width="12" height="15" align="left"></td><td valign="top">
 <a href="index.php?request=select_sub_cat&MainID=17">Unterhaltung (Filme, CDs, Bücher, Spiele)</a> <font size="1">(0)</font><br><div class="klein"></div></td></tr><tr><td valign="top"><img src="http://go-teneriffa.de/_anzeigenmarkt/images/pfeil.gif" width="12" height="15" align="left"></td><td valign="top">
 <a href="index.php?request=select_sub_cat&MainID=16">Technik</a> <font size="1">(0)</font><br><div class="klein"></div></td></tr><tr><td valign="top"><img src="http://go-teneriffa.de/_anzeigenmarkt/images/pfeil.gif" width="12" height="15" align="left"></td><td valign="top">
 <a href="index.php?request=select_sub_cat&MainID=15">Sport</a> <font size="1">(0)</font><br><div class="klein"></div></td></tr><tr><td valign="top"><img src="http://go-teneriffa.de/_anzeigenmarkt/images/pfeil.gif" width="12" height="15" align="left"></td><td valign="top">
@@ -215,14 +215,14 @@ width="100%" class="headertablecolor">
 <a href="index.php?request=select_sub_cat&MainID=11">Garten & Pflanzen</a> <font size="1">(0)</font><br><div class="klein"></div></td></tr><tr><td valign="top"><img src="http://go-teneriffa.de/_anzeigenmarkt/images/pfeil.gif" width="12" height="15" align="left"></td><td valign="top">
 <a href="index.php?request=select_sub_cat&MainID=10">Wellness & Gesundheit</a> <font size="1">(1)</font><br><div class="klein"></div></td></tr><tr><td valign="top"><img src="http://go-teneriffa.de/_anzeigenmarkt/images/pfeil.gif" width="12" height="15" align="left"></td><td valign="top">
 <a href="index.php?request=select_sub_cat&MainID=9">Kleidung</a> <font size="1">(0)</font><br><div class="klein"></div></td></tr><tr><td valign="top"><img src="http://go-teneriffa.de/_anzeigenmarkt/images/pfeil.gif" width="12" height="15" align="left"></td><td valign="top">
-<a href="index.php?request=select_sub_cat&MainID=8">Baby, Kind & Spielzeug</a> <font size="1">(1)</font><br><div class="klein"></div></td></tr><tr><td valign="top"><img src="http://go-teneriffa.de/_anzeigenmarkt/images/pfeil.gif" width="12" height="15" align="left"></td><td valign="top">
+<a href="index.php?request=select_sub_cat&MainID=8">Baby, Kind & Spielzeug</a> <font size="1">(0)</font><br><div class="klein"></div></td></tr><tr><td valign="top"><img src="http://go-teneriffa.de/_anzeigenmarkt/images/pfeil.gif" width="12" height="15" align="left"></td><td valign="top">
 <a href="index.php?request=select_sub_cat&MainID=7">Tierwelt</a> <font size="1">(0)</font><br><div class="klein"></div></td></tr><tr><td valign="top"><img src="http://go-teneriffa.de/_anzeigenmarkt/images/pfeil.gif" width="12" height="15" align="left"></td><td valign="top">
 <a href="index.php?request=select_sub_cat&MainID=6">Möbel & Haushalt</a> <font size="1">(0)</font><br><div class="klein"></div></td></tr></table></td><td valign="top" width="33%"><table border ="0" cellpadding="0" cellspacing="3"><tr><td valign="top"><img src="http://go-teneriffa.de/_anzeigenmarkt/images/pfeil.gif" width="12" height="15" align="left"></td><td valign="top">
-<a href="index.php?request=select_sub_cat&MainID=5">Stellenmarkt</a> <font size="1">(1)</font><br><div class="klein"></div></td></tr><tr><td valign="top"><img src="http://go-teneriffa.de/_anzeigenmarkt/images/pfeil.gif" width="12" height="15" align="left"></td><td valign="top">
+<a href="index.php?request=select_sub_cat&MainID=5">Stellenmarkt</a> <font size="1">(0)</font><br><div class="klein"></div></td></tr><tr><td valign="top"><img src="http://go-teneriffa.de/_anzeigenmarkt/images/pfeil.gif" width="12" height="15" align="left"></td><td valign="top">
 <a href="index.php?request=select_sub_cat&MainID=4">Motorräder</a> <font size="1">(0)</font><br><div class="klein"></div></td></tr><tr><td valign="top"><img src="http://go-teneriffa.de/_anzeigenmarkt/images/pfeil.gif" width="12" height="15" align="left"></td><td valign="top">
 <a href="index.php?request=select_sub_cat&MainID=3">Kontaktanzeigen</a> <font size="1">(0)</font><br><div class="klein"></div></td></tr><tr><td valign="top"><img src="http://go-teneriffa.de/_anzeigenmarkt/images/pfeil.gif" width="12" height="15" align="left"></td><td valign="top">
 <a href="index.php?request=select_sub_cat&MainID=2">Automarkt</a> <font size="1">(0)</font><br><div class="klein"></div></td></tr><tr><td valign="top"><img src="http://go-teneriffa.de/_anzeigenmarkt/images/pfeil.gif" width="12" height="15" align="left"></td><td valign="top">
-<a href="index.php?request=select_sub_cat&MainID=19">zu verschenken</a> <font size="1">(1)</font><br><div class="klein"></div></td></tr></table></td></tr></table> </td></tr></table>
+<a href="index.php?request=select_sub_cat&MainID=19">zu verschenken</a> <font size="1">(0)</font><br><div class="klein"></div></td></tr></table></td></tr></table> </td></tr></table>
 
         </td>
     </tr>

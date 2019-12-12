@@ -127,7 +127,7 @@ einfachen HTML-Tabellen.
 &nbsp;<input type="submit" value="Suchen" name="submit">
 </div></form></td>
 <td align="right" valign="top"><div class="klein">
-Montag, 6. Juli 2015  &nbsp;&nbsp; Zeit:    15:10:26</div>
+Dienstag, 8. November 2016  &nbsp;&nbsp; Zeit:    08:45:56</div>
 
 
 </td></tr></table>

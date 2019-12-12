@@ -119,11 +119,9 @@ Lexikon A - Z</font></a></font></font></font><strong><br>
   <a href="fewoinelmedano.htm">Teneriffa Fewo in El M&eacute;dano</a><br>
 <p align="left"><font color="#FF0000" size="2" face="Arial, Helvetica, sans-serif"><font color="#000000"><a href="hotels_teneriffa_online.php"><strong>Hotels 
   auf Teneriffa</strong></a><strong><br>
-  &nbsp;&nbsp;&nbsp;&nbsp;<a href="hotels_teneriffa_online.php">online buchen</a><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="hotels_teneriffa_online.php">online buchen</a> <br>
   <br>
-  <a href="teneriffa_lastminute.htm">Teneriffa-Lastminute</a><br>
-  <a href="teneriffa_roulettebuchung.htm">Teneriffa Roulettereisen</a></strong> 
-  <font color="#FF0000">NEU </font><br>
+  <a href="teneriffa_lastminute.htm">Teneriffa-Lastminute</a></strong><br>
   <br>
   <a href="teneriffacharterfluege.htm"><strong>Teneriffa Charterfl&uuml;ge</strong></a><strong><br>
   <a href="teneriffacharterfluege.htm">Fl&uuml;ge weltweit</a><br>
@@ -163,10 +161,10 @@ MM_reloadPage(true);
 <p align="left"><font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><a href="unsere_partner.htm">Unsere 
   Partner </a></font></p>
 <p align="left"><font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><a href="immobilien.htm">Teneriffa 
-  Immobilien</a> </font></p>
-<p align="left"><font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><a href="php%20Formular%20Original/kontakt_anfrage.php">Kontakt</a><br>
-  <a href="impressum.htm">Impressum</a></font></p>
-        <!-- #EndLibraryItem --></div>
+  Immobilien<br>
+</a></font><font color="#000000" size="2" face="Arial, Helvetica, sans-serif"><br>
+  <a href="impressum.htm">Impressum / Datenschutz</a></font></p>
+<!-- #EndLibraryItem --></div>
       </div></td>
     <td height="2"></td>
   </tr>
@@ -232,9 +230,7 @@ MM_reloadPage(true);
     <td height="35" colspan="3" bgcolor="#FF9933"><div align="center"></div>
     <div align="center">
               </div>
-    <p align="center"><?xml version="1.0" encoding="utf-8"?>
-<resultset><errors><error code="615">Der Service ist nicht verfügbar.</error></errors></resultset>
-</p></td>
+    <p align="center"></p></td>
   </tr>
   <tr> 
     <td colspan="3" rowspan="4" valign="top"><div align="center">
@@ -333,10 +329,5 @@ MM_reloadPage(true);
     </td>
   </tr>
 </table>
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
-</script>
-<script type="text/javascript">
-_uacct = "UA-2877152-4";
-urchinTracker();
-</script></body>
+</body>
 </html>

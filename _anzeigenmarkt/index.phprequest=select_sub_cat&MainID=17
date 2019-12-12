@@ -127,7 +127,7 @@ einfachen HTML-Tabellen.
 &nbsp;<input type="submit" value="Suchen" name="submit">
 </div></form></td>
 <td align="right" valign="top"><div class="klein">
-Donnerstag, 7. Mai 2015  &nbsp;&nbsp; Zeit:    01:27:38</div>
+Mittwoch, 9. November 2016  &nbsp;&nbsp; Zeit:    06:01:36</div>
 
 
 </td></tr></table>
@@ -228,7 +228,7 @@ class="headertablecolor">
         </table>
         </td>
     </tr>
-</table></form>
+</table></form><div class="mittel">06:01 System wird gewartet einen Moment bitte....<br></div><div class="mittel">Systemwartung abgeschlossen bitte klicken Sie <a href="index.php">hier</a><br>Dauer 0.0850 sec.<br><br></div>
 
 <!-- Ende adbc-pro-->
 </td>

@@ -127,7 +127,7 @@ einfachen HTML-Tabellen.
 &nbsp;<input type="submit" value="Suchen" name="submit">
 </div></form></td>
 <td align="right" valign="top"><div class="klein">
-Montag, 6. Juli 2015  &nbsp;&nbsp; Zeit:    15:10:54</div>
+Freitag, 31. M&auml;rz 2017  &nbsp;&nbsp; Zeit:    18:49:15</div>
 
 
 </td></tr></table>
@@ -203,7 +203,7 @@ Bitte aktivieren Sie Cookies in Ihrem Browser da sonst eine reibungslose Funktio
 <input type="text" name="Email" value="" tabindex="1"></td></tr>
 <tr><td valign="top"><div class="mittel"><b>Passwort:</b></div></td><td  valign="top">
 <input type="password" name="pass" value="" tabindex="2" maxlength=\“8\“>
-<font size="1"><a href="user.php?request=password&AuthUserLogin=7d30907e5d4b9161c22bf9b3eae8a014">Passwort vergessen ?</div></td></tr>
+<font size="1"><a href="user.php?request=password&AuthUserLogin=">Passwort vergessen ?</div></td></tr>
 <tr><td colspan=2>
 <input type="submit"  name="submit" value="Login" tabindex="3">
 </td></tr></table></form>
