@@ -48,7 +48,23 @@ function MM_reloadPage(init) {  //reloads the window if Nav4 resized
 MM_reloadPage(true);
 //-->
 </script>
-</head>
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://adsrv.innocraft.cloud/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '52']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src='//cdn.innocraft.cloud/adsrv.innocraft.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="https://adsrv.innocraft.cloud/matomo.php?idsite=52&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code --> </head>
 
 <body background="Hintergruende%20usw/hintergrund%20beige.jpg" link="#000000" vlink="#000000">
 <div id="Layer1" style="position:absolute; left:258px; top:318px; width:646px; height:34px; z-index:1"><img src="Enwurf-1.jpg" width="640" height="93"></div>

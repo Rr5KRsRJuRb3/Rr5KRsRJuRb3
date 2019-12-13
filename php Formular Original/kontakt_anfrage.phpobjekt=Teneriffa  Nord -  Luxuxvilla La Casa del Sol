@@ -94,7 +94,23 @@ h1  { font-size: 13px; font-family: "Trebuchet MS", Geneva, Arial, Helvetica, Su
 .sbutton       { color: #e6e3ca; font-size: 11px; font-weight: bold; background-color: #5b5542; border: solid 1px #000 }
 -->
 </style>
-</head>
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://adsrv.innocraft.cloud/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '52']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src='//cdn.innocraft.cloud/adsrv.innocraft.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="https://adsrv.innocraft.cloud/matomo.php?idsite=52&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code --> </head>
 
 <body>
 <table class="table" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#887e62">

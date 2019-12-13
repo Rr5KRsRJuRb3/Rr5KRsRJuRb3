@@ -61,7 +61,23 @@ function MM_preloadImages() { //v3.0
 
 //-->
 </script>
-</head>
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://adsrv.innocraft.cloud/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '52']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src='//cdn.innocraft.cloud/adsrv.innocraft.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="https://adsrv.innocraft.cloud/matomo.php?idsite=52&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code --> </head>
 
 <body background="Hintergruende%20usw/hintergrund%20beige.jpg" link="#000000" vlink="#000000" alink="#000000">
 <table width="968" border="0" cellpadding="0" cellspacing="0">
@@ -2672,7 +2688,9 @@ Restaurant Los Faroles: Der Komplex verf&uuml;gt &uuml;ber ein sch&ouml;nes Rest
 Hotel Centro- Sofia</a>
 </div>
 <div>
-Zur gegenseitigen Absicherung wird eine Anzahlung  in H&ouml;he von 30 % des Unterkunftspreises per Bank-&Uuml;berweisung erwartet. Das Hotel nimmt nach der Buchung diesbez&uuml;glich mit Ihnen Kontakt auf.  In den Unterkunftspreisen ist die einmalige Endreinigung (1 Tagesmiete =&gt;45 &euro;) nicht eingeschlossen und muss &ndash; zusammen mit der Restzahlung - ...        </div>
+Zur gegenseitigen Absicherung wird eine Anzahlung  in H&ouml;he von 30 % des Unterkunftspreises per Bank-&Uuml;berweisung erwartet. Das Hotel nimmt nach der Buchung diesbez&uuml;glich mit Ihnen Kontakt auf.
+ 
+ In den Unterkunftspreisen ist die einmalige Endreinigung (1 Tagesmiete =&gt;45 &euro;) nicht eingeschlossen und muss &ndash; zusammen mit der Restzahlung - ...        </div>
 </div>
 <div class="c4p c4p_footer">Inhalte werden von <a class="c4p_ancor" href="http://www.ab-in-den-urlaub.de"
 target="_blank">ab-in-den-urlaub.de</a> zur Verf&uuml;gung gestellt.<br />
